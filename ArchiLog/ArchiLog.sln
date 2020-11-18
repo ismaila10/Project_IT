@@ -5,11 +5,11 @@ VisualStudioVersion = 16.0.30128.74
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{04FDEE1A-F308-4D2F-8B0A-C88FEEB51545}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APILibrary", "src\APILibrary\APILibrary.csproj", "{DA85630C-C6E2-43E5-8AC4-1B406E83F277}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APILibrary", "src\APILibrary\APILibrary.csproj", "{DA85630C-C6E2-43E5-8AC4-1B406E83F277}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APILibrary.Test", "src\APILibrary.Test\APILibrary.Test.csproj", "{85D8E8B1-91C4-408F-87CE-3E43EA4D030C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APILibrary.Test", "src\APILibrary.Test\APILibrary.Test.csproj", "{85D8E8B1-91C4-408F-87CE-3E43EA4D030C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication", "src\WebApplication\WebApplication.csproj", "{8A61986B-8AE5-4F02-B714-B2D9AEA5ACC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication", "src\WebApplication\WebApplication.csproj", "{8A61986B-8AE5-4F02-B714-B2D9AEA5ACC6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

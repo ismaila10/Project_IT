@@ -10,3 +10,15 @@ D:\Mes Cours Ynov\archilog\ArchiLog\src\APILibrary\bin\Debug\netcoreapp3.1\APILi
 D:\Mes Cours Ynov\archilog\ArchiLog\src\APILibrary\bin\Debug\netcoreapp3.1\APILibrary.runtimeconfig.dev.json
 D:\Mes Cours Ynov\archilog\ArchiLog\src\APILibrary\obj\Debug\netcoreapp3.1\APILibrary.genruntimeconfig.cache
 D:\Mes Cours Ynov\archilog\ArchiLog\src\APILibrary\obj\Debug\netcoreapp3.1\APILibrary.csproj.CoreCompileInputs.cache
+D:\Mes Cours Ynov\Nouveau dossier\ArchiLog\src\APILibrary\obj\Debug\netcoreapp3.1\APILibrary.csprojAssemblyReference.cache
+D:\Mes Cours Ynov\Nouveau dossier\ArchiLog\src\APILibrary\obj\Debug\netcoreapp3.1\APILibrary.AssemblyInfoInputs.cache
+D:\Mes Cours Ynov\Nouveau dossier\ArchiLog\src\APILibrary\obj\Debug\netcoreapp3.1\APILibrary.AssemblyInfo.cs
+D:\Mes Cours Ynov\Nouveau dossier\ArchiLog\src\APILibrary\obj\Debug\netcoreapp3.1\APILibrary.dll
+D:\Mes Cours Ynov\Nouveau dossier\ArchiLog\src\APILibrary\obj\Debug\netcoreapp3.1\APILibrary.pdb
+D:\Mes Cours Ynov\Nouveau dossier\ArchiLog\src\APILibrary\bin\Debug\netcoreapp3.1\APILibrary.deps.json
+D:\Mes Cours Ynov\Nouveau dossier\ArchiLog\src\APILibrary\bin\Debug\netcoreapp3.1\APILibrary.runtimeconfig.json
+D:\Mes Cours Ynov\Nouveau dossier\ArchiLog\src\APILibrary\bin\Debug\netcoreapp3.1\APILibrary.runtimeconfig.dev.json
+D:\Mes Cours Ynov\Nouveau dossier\ArchiLog\src\APILibrary\bin\Debug\netcoreapp3.1\APILibrary.dll
+D:\Mes Cours Ynov\Nouveau dossier\ArchiLog\src\APILibrary\bin\Debug\netcoreapp3.1\APILibrary.pdb
+D:\Mes Cours Ynov\Nouveau dossier\ArchiLog\src\APILibrary\obj\Debug\netcoreapp3.1\APILibrary.genruntimeconfig.cache
+D:\Mes Cours Ynov\Nouveau dossier\ArchiLog\src\APILibrary\obj\Debug\netcoreapp3.1\APILibrary.csproj.CoreCompileInputs.cache

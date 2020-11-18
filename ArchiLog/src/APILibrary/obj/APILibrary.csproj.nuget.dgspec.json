@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Mes Cours Ynov\\archilog\\ArchiLog\\src\\APILibrary\\APILibrary.csproj": {}
+    "D:\\Mes Cours Ynov\\Nouveau dossier\\ArchiLog\\src\\APILibrary\\APILibrary.csproj": {}
   },
   "projects": {
-    "D:\\Mes Cours Ynov\\archilog\\ArchiLog\\src\\APILibrary\\APILibrary.csproj": {
+    "D:\\Mes Cours Ynov\\Nouveau dossier\\ArchiLog\\src\\APILibrary\\APILibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Mes Cours Ynov\\archilog\\ArchiLog\\src\\APILibrary\\APILibrary.csproj",
+        "projectUniqueName": "D:\\Mes Cours Ynov\\Nouveau dossier\\ArchiLog\\src\\APILibrary\\APILibrary.csproj",
         "projectName": "APILibrary",
-        "projectPath": "D:\\Mes Cours Ynov\\archilog\\ArchiLog\\src\\APILibrary\\APILibrary.csproj",
+        "projectPath": "D:\\Mes Cours Ynov\\Nouveau dossier\\ArchiLog\\src\\APILibrary\\APILibrary.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "D:\\Mes Cours Ynov\\archilog\\ArchiLog\\src\\APILibrary\\obj\\",
+        "outputPath": "D:\\Mes Cours Ynov\\Nouveau dossier\\ArchiLog\\src\\APILibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -38,6 +38,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
             "Microsoft.AspNetCore.Mvc.Core": {
               "target": "Package",
               "version": "[2.2.5, )"

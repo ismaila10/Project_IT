@@ -48,7 +48,7 @@ namespace APILibrary.Core.Extensions
 
             var lambda = Expression.Lambda<Func<TModel, dynamic>>(body, parameter);
 
-            return query.Select(lambda);
+            return query.Select(lambda).OrderByDescending(x=>Expression.Property(parameter, "Lastname"));
         }
 
         public static IQueryable<TModel> SelectModel<TModel>(this IQueryable<TModel> query, string[] fields) where TModel : ModelBase
@@ -67,11 +67,7 @@ namespace APILibrary.Core.Extensions
         }
 
 
-        public static IQueryable<TModel> Paginate<TModel>(this IQueryable<TModel> query,int star,int index)
-        {
-
-        }
 
         
-    }
+        }
 }

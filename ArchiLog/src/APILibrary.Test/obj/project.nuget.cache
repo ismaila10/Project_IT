@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fCXQ/vehe2UMzMjVNcZviVK83Vd2LPTkHr3FceM7VAmhSiA6K4uET8ezpp5nwU+31THmH76wyPzz2Jx8RW+xZA==",
+  "dgSpecHash": "02WI1OozyaMv3BDVUk5MtKhD7gzH2sDI1YFdxO5rRk62tFNsz5rYB8PxpGwXNWxaOdVxhjIMUeAWCmI3MUThcw==",
   "success": true,
-  "projectFilePath": "D:\\Mes Cours Ynov\\archilog\\ArchiLog\\src\\APILibrary.Test\\APILibrary.Test.csproj",
+  "projectFilePath": "D:\\Mes Cours Ynov\\Nouveau dossier\\ArchiLog\\src\\APILibrary.Test\\APILibrary.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pc\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

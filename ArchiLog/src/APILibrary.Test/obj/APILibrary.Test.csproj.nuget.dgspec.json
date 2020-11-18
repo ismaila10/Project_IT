@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Mes Cours Ynov\\archilog\\ArchiLog\\src\\APILibrary.Test\\APILibrary.Test.csproj": {}
+    "D:\\Mes Cours Ynov\\Nouveau dossier\\ArchiLog\\src\\APILibrary.Test\\APILibrary.Test.csproj": {}
   },
   "projects": {
-    "D:\\Mes Cours Ynov\\archilog\\ArchiLog\\src\\APILibrary.Test\\APILibrary.Test.csproj": {
+    "D:\\Mes Cours Ynov\\Nouveau dossier\\ArchiLog\\src\\APILibrary.Test\\APILibrary.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Mes Cours Ynov\\archilog\\ArchiLog\\src\\APILibrary.Test\\APILibrary.Test.csproj",
+        "projectUniqueName": "D:\\Mes Cours Ynov\\Nouveau dossier\\ArchiLog\\src\\APILibrary.Test\\APILibrary.Test.csproj",
         "projectName": "APILibrary.Test",
-        "projectPath": "D:\\Mes Cours Ynov\\archilog\\ArchiLog\\src\\APILibrary.Test\\APILibrary.Test.csproj",
+        "projectPath": "D:\\Mes Cours Ynov\\Nouveau dossier\\ArchiLog\\src\\APILibrary.Test\\APILibrary.Test.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "D:\\Mes Cours Ynov\\archilog\\ArchiLog\\src\\APILibrary.Test\\obj\\",
+        "outputPath": "D:\\Mes Cours Ynov\\Nouveau dossier\\ArchiLog\\src\\APILibrary.Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
