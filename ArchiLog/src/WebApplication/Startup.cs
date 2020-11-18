@@ -69,20 +69,20 @@ namespace WebApplication
             {
                 app.UseDeveloperExceptionPage();
 
-                app.UseSwagger();
-                app.UseSwaggerUI(c =>
-                {
-                    c.SwaggerEndpoint("v1/swagger.json", "MyAPI V1");
-                });
+                //app.UseSwagger();
+                ///app.UseSwaggerUI(c =>
+                //{
+                  //  c.SwaggerEndpoint("v1/swagger.json", "MyAPI V1");
+                //});
             }
 
             //app.UseHttpsRedirection();
 
             //ajout du swagger à notre application
-            //var swaggerOptions = new SwaggerOptions();
-            //Configuration.GetSection(nameof(swaggerOptions)).Bind(swaggerOptions);
-            //app.UseSwagger(options => options.RouteTemplate = swaggerOptions.JsonRoute);
-            //app.UseSwaggerUI(options => options.SwaggerEndpoint(swaggerOptions.UIEndpoint, swaggerOptions.Description));
+            var swaggerOptions = new SwaggerOptions();
+            Configuration.GetSection(nameof(swaggerOptions)).Bind(swaggerOptions);
+            app.UseSwagger(options => options.RouteTemplate = swaggerOptions.JsonRoute);
+            app.UseSwaggerUI(options => options.SwaggerEndpoint(swaggerOptions.UIEndpoint, swaggerOptions.Description));
 
             app.UseStaticFiles();
             app.UseHttpsRedirection();
