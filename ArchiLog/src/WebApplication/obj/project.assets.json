@@ -6852,33 +6852,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pc\\.nuget\\packages\\": {}
+    "/Users/ismailadiallo/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Mes Cours Ynov\\Nouveau dossier\\ArchiLog\\src\\WebApplication\\WebApplication.csproj",
+      "projectUniqueName": "/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/WebApplication.csproj",
       "projectName": "WebApplication",
-      "projectPath": "D:\\Mes Cours Ynov\\Nouveau dossier\\ArchiLog\\src\\WebApplication\\WebApplication.csproj",
-      "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-      "outputPath": "D:\\Mes Cours Ynov\\Nouveau dossier\\ArchiLog\\src\\WebApplication\\obj\\",
+      "projectPath": "/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/WebApplication.csproj",
+      "packagesPath": "/Users/ismailadiallo/.nuget/packages/",
+      "outputPath": "/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/ismailadiallo/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Mes Cours Ynov\\Nouveau dossier\\ArchiLog\\src\\APILibrary\\APILibrary.csproj": {
-              "projectPath": "D:\\Mes Cours Ynov\\Nouveau dossier\\ArchiLog\\src\\APILibrary\\APILibrary.csproj"
+            "/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary/APILibrary.csproj": {
+              "projectPath": "/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary/APILibrary.csproj"
             }
           }
         }
@@ -6891,6 +6890,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
@@ -6933,7 +6933,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }

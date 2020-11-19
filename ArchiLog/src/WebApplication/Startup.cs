@@ -12,8 +12,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using WebApplication.Data;
-using APILibrary.Options;
-using Microsoft.OpenApi.Models;
 
 namespace WebApplication
 {
@@ -30,36 +28,11 @@ namespace WebApplication
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            //ajout de la dép. EatDbContext. Configuration avec le type de bdd et chaine de connexion
+            //ajout de la d?p. EatDbContext. Configuration avec le type de bdd et chaine de connexion
             services.AddDbContext<EatDbContext>(db =>
                 db.UseLoggerFactory(EatDbContext.SqlLogger)
                     .UseSqlServer(Configuration.GetConnectionString("EatConnectionString"))
             );
-
-            services.AddSwaggerGen(c=>
-                 c.SwaggerDoc("v1", new OpenApiInfo
-                 {
-                     Version = "v1",
-                     Title = "ToDo API",
-                     Description = "A simple example ASP.NET Core Web API",
-                     TermsOfService = new Uri("https://example.com/terms"),
-                     Contact = new OpenApiContact
-                     {
-                         Name = "Shayne Boyer",
-                         Email = string.Empty,
-                         Url = new Uri("https://twitter.com/spboyer"),
-                     },
-                     License = new OpenApiLicense
-                     {
-                         Name = "Use under LICX",
-                         Url = new Uri("https://example.com/license"),
-                     }
-                 })
-                
-                
-                );
-
-
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -68,35 +41,18 @@ namespace WebApplication
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-
-                //app.UseSwagger();
-                ///app.UseSwaggerUI(c =>
-                //{
-                  //  c.SwaggerEndpoint("v1/swagger.json", "MyAPI V1");
-                //});
             }
 
             //app.UseHttpsRedirection();
 
-            //ajout du swagger à notre application
-            var swaggerOptions = new SwaggerOptions();
-            Configuration.GetSection(nameof(swaggerOptions)).Bind(swaggerOptions);
-            app.UseSwagger(options => options.RouteTemplate = swaggerOptions.JsonRoute);
-            app.UseSwaggerUI(options => options.SwaggerEndpoint(swaggerOptions.UIEndpoint, swaggerOptions.Description));
-
-            app.UseStaticFiles();
-            app.UseHttpsRedirection();
             app.UseRouting();
 
             //app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
-            
-        });
+                endpoints.MapControllers();
+            });
         }
     }
 }

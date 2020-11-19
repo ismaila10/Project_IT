@@ -18,7 +18,5 @@ namespace WebApplication.Controllers
         public CustomersController(EatDbContext context):base(context)
         {
         }
-
-        
     }
 }
