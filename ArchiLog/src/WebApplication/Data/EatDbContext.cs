@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -10,7 +11,7 @@ namespace WebApplication.Data
 {
 
     //classe principale d'accès aux données
-    public class EatDbContext : DbContext
+    public class EatDbContext : IdentityDbContext
     {
         public static readonly ILoggerFactory SqlLogger = LoggerFactory.Create(builder => builder.AddConsole());
 

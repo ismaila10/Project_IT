@@ -2,6 +2,7 @@
 using APILibrary.Core.ControllersParameter;
 using APILibrary.Core.Extensions;
 using APILibrary.Core.Models;
+using APILibrary.Core.Pagination;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -37,7 +38,7 @@ namespace APILibrary.Core.Controllers
 
         [ProducesResponseType((int)HttpStatusCode.OK)]
         [HttpGet]
-        public virtual async Task<ActionResult<IEnumerable<dynamic>>> GetAllAsync([FromQuery] string fields)
+        public virtual async Task<ActionResult<IEnumerable<dynamic>>> GetAllAsync([FromQuery] string fields, [FromQuery] string range,[FromQuery] string sort)
         {
 
 
@@ -46,16 +47,29 @@ namespace APILibrary.Core.Controllers
            
             var query = _context.Set<TModel>().AsQueryable();
 
+
+
+            var query3 = query.SortBy("ID");
+            var query2 = query.SortBy("Lastname");
+           
+
+            return Ok(await query2.ToListAsync());
+
+
+
+
+
             if (!string.IsNullOrWhiteSpace(fields))
             {
                 var tab = fields.Split(',');
 
-                return (Ok(fields));
+
 
                 // var results = await IQueryableExtensions.SelectDynamic<TModel>(query, tab).ToListAsync();
                 var results = await query.SelectDynamic(tab).ToListAsync();
-
-                return results.Select((x) => IQueryableExtensions.SelectObject(x, tab)).ToList();
+                  return results.Select((x) => IQueryableExtensions.SelectObject(x, tab)).ToList();
+                    
+                  
 
             }
             else
@@ -64,10 +78,27 @@ namespace APILibrary.Core.Controllers
 
              
 
-                Response.Headers.Add("Accept-Range", "product 50");
-                 Response.Headers.Add("Content-Range", "0-47/48");
-                return Ok( ToJsonList(await query.OrderBy(x=>x.ID).ToListAsync()));
+                if(!string.IsNullOrWhiteSpace(range))
+                {
+                           
+                    var Tabrange = range.Split("-");
 
+                    if (Tabrange.Length == 2 && (Int16.Parse(Tabrange[0]) <  Int16.Parse(Tabrange[1])))
+                    { 
+                        var Collection = ToJsonList(await query.PaginationModel(Int16.Parse(Tabrange[0]), Int16.Parse(Tabrange[1])).ToListAsync());
+                        var PaginationResult = new PageResponse<IEnumerable<dynamic>>(Collection, Tabrange, query.Count(),Request);
+                        return Ok(PaginationResult); 
+                    }
+                    else
+                    {
+                        return NotFound(new { Message = $"range {range} Parameter Error" });
+                    }
+                }
+
+                
+               
+                return Ok(null);
+                
                
             }
             
