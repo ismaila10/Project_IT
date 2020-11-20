@@ -1,5 +1,4 @@
 ﻿using APILibrary.Core.Attributes;
-using APILibrary.Core.ControllersParameter;
 using APILibrary.Core.Extensions;
 using APILibrary.Core.Models;
 using APILibrary.Core.Pagination;
@@ -39,25 +38,9 @@ namespace APILibrary.Core.Controllers
         [ProducesResponseType((int)HttpStatusCode.OK)]
         [HttpGet]
         public virtual async Task<ActionResult<IEnumerable<dynamic>>> GetAllAsync([FromQuery] string fields, [FromQuery] string range,[FromQuery] string sort)
-        {
-
-
-
-           
+        {           
            
             var query = _context.Set<TModel>().AsQueryable();
-
-
-
-            var query3 = query.SortBy("ID");
-            var query2 = query.SortBy("Lastname");
-           
-
-            return Ok(await query2.ToListAsync());
-
-
-
-
 
             if (!string.IsNullOrWhiteSpace(fields))
             {
