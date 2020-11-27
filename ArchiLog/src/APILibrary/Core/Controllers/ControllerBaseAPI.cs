@@ -42,23 +42,52 @@ namespace APILibrary.Core.Controllers
        
         public virtual async Task<ActionResult<IEnumerable<dynamic>>> GetAllAsync([FromQuery] string fields, [FromQuery] string range,[FromQuery] string sort)
         {           
-           
-            var query = _context.Set<TModel>().AsQueryable();
             
+            var query = _context.Set<TModel>().AsQueryable();
 
             if (!string.IsNullOrWhiteSpace(sort))
             {  
                 query = query.OrderBy(sort);
-                return Ok(await query.ToListAsync());
             }
 
+            // filter
 
-            
+
+
+            //range
+            if (!string.IsNullOrWhiteSpace(range))
+            {
+
+                var Tabrange = range.Split("-");
+
+                //if (Tabrange.Length == 2 && (Int16.Parse(Tabrange[0]) < Int16.Parse(Tabrange[1])))
+                //{
+                    var Collection = ToJsonList(await query.Skip(1,6).ToListAsync());
+                    var PaginationResult = new PageResponse<IEnumerable<dynamic>>(Collection, query.Count(), Request);
+                var metadata = new
+                {
+                    PaginationResult.rel_First,
+                    PaginationResult.rel_Last,
+                 
+                };
+
+
+                    return Ok(PaginationResult);
+                //}
+                //else
+                //{
+                  //  return NotFound(new { Message = $"range {range} Parameter Error" });
+               // }
+            }
+
 
 
 
             return null;
-            
+
+
+
+
 
         }
 
