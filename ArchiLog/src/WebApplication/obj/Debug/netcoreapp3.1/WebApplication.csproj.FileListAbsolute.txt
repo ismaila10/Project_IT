@@ -135,6 +135,12 @@ D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcorea
 D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csproj.CoreCompileInputs.cache
 D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.MvcApplicationPartsAssemblyInfo.cs
 D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.MvcApplicationPartsAssemblyInfo.cache
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csprojAssemblyReference.cache
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.AssemblyInfoInputs.cache
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.AssemblyInfo.cs
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csproj.CoreCompileInputs.cache
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.MvcApplicationPartsAssemblyInfo.cs
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.MvcApplicationPartsAssemblyInfo.cache
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/appsettings.Development.json
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/appsettings.json
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.deps.json
@@ -172,6 +178,7 @@ D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/obj/Debug/netcorea
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.OpenApi.dll
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/StringToExpression.dll
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.Swagger.dll
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerGen.dll
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -191,12 +198,6 @@ D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/obj/Debug/netcorea
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/APILibrary.dll
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/APILibrary.pdb
-/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csprojAssemblyReference.cache
-/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.AssemblyInfoInputs.cache
-/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.AssemblyInfo.cs
-/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csproj.CoreCompileInputs.cache
-/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.MvcApplicationPartsAssemblyInfo.cs
-/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.MvcApplicationPartsAssemblyInfo.cache
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/staticwebassets/WebApplication.StaticWebAssets.Manifest.cache
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/staticwebassets/WebApplication.StaticWebAssets.xml
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/scopedcss/bundle/WebApplication.styles.css
@@ -205,4 +206,3 @@ D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/obj/Debug/netcorea
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.dll
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.pdb
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.genruntimeconfig.cache
-/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/StringToExpression.dll

@@ -38,9 +38,9 @@ namespace APILibrary.Core.Controllers
             var query = _context.Set<TModel>().AsQueryable();
             filters = "FirstName=Mamadou,Ismaila&Lastname=Diallo";
 
-            //query = query.Filtera("FirstName", "Ismaila");
+            query = query.Filtera("FirstName", "Mamadou");
 
-            if (!string.IsNullOrWhiteSpace(filters))
+            /*if (!string.IsNullOrWhiteSpace(filters))
             {
                 var tab = filters.Split('&');
                 var filterColumn = "";
@@ -53,7 +53,7 @@ namespace APILibrary.Core.Controllers
                 }
 
 
-            }
+            }*/
 
             if (!string.IsNullOrWhiteSpace(fields))
             {

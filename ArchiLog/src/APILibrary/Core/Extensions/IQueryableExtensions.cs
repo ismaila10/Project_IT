@@ -71,15 +71,15 @@ namespace APILibrary.Core.Extensions
             return query.Select(lambda);
         }
 
-        
-        
+
+
         public static IQueryable<TModel> Filtera<TModel>(this IQueryable<TModel> query, string filterColumn, string filterValue)
         {
             var parameterExpression = Expression.Parameter(typeof(TModel), "x");
             var constant = Expression.Constant(filterValue);
             var property = Expression.Property(parameterExpression, filterColumn);
             var expression = Expression.Equal(property, constant);
-            var lambda = Expression.Lambda<Func<TModel,bool>>(expression, parameterExpression);
+            var lambda = Expression.Lambda<Func<TModel, bool>>(expression, parameterExpression);
 
             query = query.Where(lambda);
             return query;
@@ -262,8 +262,9 @@ namespace APILibrary.Core.Extensions
                     #endregion
             }
             return data;
-        }
+        }*/
 
 
-    }*/
+
     }
+}

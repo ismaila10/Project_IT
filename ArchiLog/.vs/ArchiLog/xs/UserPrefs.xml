@@ -1,12 +1,26 @@
 ﻿<Properties StartupConfiguration="{8A61986B-8AE5-4F02-B714-B2D9AEA5ACC6}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="src/APILibrary/Core/Extensions/IQueryableExtensions.cs">
     <Files>
-      <File FileName="src/WebApplication/appsettings.json" Line="1" Column="1" />
-      <File FileName="src/APILibrary/Core/Filters/FilterParams.cs" />
-      <File FileName="src/APILibrary/Core/Filters/FilterUtility.cs" />
-      <File FileName="src/APILibrary/Core/Extensions/IQueryableExtensions.cs" Line="127" Column="62" />
-      <File FileName="src/APILibrary/Core/Controllers/ControllerBaseAPI.cs" Line="48" Column="48" />
-      <File FileName="src/WebApplication/Program.cs" Line="16" Column="1" />
+      <File FileName="src/WebApplication/appsettings.json" Line="22" Column="1" />
+      <File FileName="src/APILibrary/Core/Extensions/IQueryableExtensions.cs" Line="261" Column="9" />
+      <File FileName="src/APILibrary/Core/Controllers/ControllerBaseAPI.cs" />
+      <File FileName="src/WebApplication/Program.cs" />
+      <File FileName="src/WebApplication/Dockerfile" />
+      <File FileName="src/APILibrary/Core/Models/ModelBase.cs" />
+      <File FileName="src/APILibrary/Core/Attributes/NotJsonAttribute.cs" />
+      <File FileName="src/APILibrary.Test/UnitTest1.cs" />
+      <File FileName="src/WebApplication/Controllers/CustomersController.cs" />
+      <File FileName="src/WebApplication/Controllers/PizzasController.cs" />
+      <File FileName="src/WebApplication/Data/EatDbContext.cs" />
+      <File FileName="src/WebApplication/Migrations/20201030142541_Init.cs" />
+      <File FileName="src/WebApplication/Migrations/20201105084301_AddCustomers.cs" />
+      <File FileName="src/WebApplication/Migrations/EatDbContextModelSnapshot.cs" />
+      <File FileName="src/WebApplication/Models/Customer.cs" />
+      <File FileName="src/WebApplication/Models/Pizza.cs" />
+      <File FileName="src/WebApplication/Properties/launchSettings.json" />
+      <File FileName="src/WebApplication/Startup.cs" Line="15" Column="18" />
+      <File FileName="src/WebApplication/appsettings.Development.json" />
+      <File FileName="src/WebApplication/obj/WebApplication.csproj.nuget.g.props" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,16 +29,13 @@
             <Node name="src" expanded="True">
               <Node name="APILibrary" expanded="True">
                 <Node name="Core" expanded="True">
-                  <Node name="Controllers" expanded="True" />
                   <Node name="Extensions" expanded="True">
                     <Node name="IQueryableExtensions.cs" selected="True" />
                   </Node>
                 </Node>
               </Node>
               <Node name="WebApplication" expanded="True">
-                <Node name="Controllers" expanded="True" />
-                <Node name="Data" expanded="True" />
-                <Node name="Models" expanded="True" />
+                <Node name="appsettings.json" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -34,7 +45,6 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.src.WebApplication PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.src.APILibrary.Test PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

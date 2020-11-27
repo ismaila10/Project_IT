@@ -27,10 +27,10 @@ D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/APILibrary/obj/Debug/netcoreapp3.
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary/bin/Debug/netcoreapp3.1/APILibrary.runtimeconfig.dev.json
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary/bin/Debug/netcoreapp3.1/APILibrary.dll
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary/bin/Debug/netcoreapp3.1/APILibrary.pdb
-/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary/obj/Debug/netcoreapp3.1/APILibrary.csprojAssemblyReference.cache
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary/obj/Debug/netcoreapp3.1/APILibrary.AssemblyInfoInputs.cache
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary/obj/Debug/netcoreapp3.1/APILibrary.AssemblyInfo.cs
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary/obj/Debug/netcoreapp3.1/APILibrary.csproj.CoreCompileInputs.cache
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary/obj/Debug/netcoreapp3.1/APILibrary.dll
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary/obj/Debug/netcoreapp3.1/APILibrary.pdb
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary/obj/Debug/netcoreapp3.1/APILibrary.genruntimeconfig.cache
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary/obj/Debug/netcoreapp3.1/APILibrary.csprojAssemblyReference.cache
