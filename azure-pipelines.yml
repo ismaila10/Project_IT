@@ -33,5 +33,5 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
     
--task: PublishBuildArtifacts@1
-displayName: 'publish artifacts'
+- task: PublishBuildArtifacts@1
+  displayName: 'publish artifacts'
