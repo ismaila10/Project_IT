@@ -8,10 +8,12 @@ using System;
 using System.Collections.Generic;
 using System.Dynamic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Net;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+
 namespace APILibrary.Core.Controllers
 {
     [Route("api/[controller]")]
@@ -19,17 +21,11 @@ namespace APILibrary.Core.Controllers
     public abstract class ControllerBaseAPI<TModel, TContext> : ControllerBase where TModel : ModelBase where TContext : DbContext
     {
         protected readonly TContext _context;
-       
 
         public ControllerBaseAPI(TContext context)
         {
             this._context = context;
-          
         }
-
-
-
-       
 
         //?fields=email,phone
 
@@ -38,28 +34,20 @@ namespace APILibrary.Core.Controllers
         [ProducesResponseType((int)HttpStatusCode.OK)]
         [HttpGet]
         public virtual async Task<ActionResult<IEnumerable<dynamic>>> GetAllAsync([FromQuery] string fields, [FromQuery] string range,[FromQuery] string sort)
-        {           
-           
+        {   
             var query = _context.Set<TModel>().AsQueryable();
 
             if (!string.IsNullOrWhiteSpace(fields))
             {
                 var tab = fields.Split(',');
 
-
-
                 // var results = await IQueryableExtensions.SelectDynamic<TModel>(query, tab).ToListAsync();
                 var results = await query.SelectDynamic(tab).ToListAsync();
                   return results.Select((x) => IQueryableExtensions.SelectObject(x, tab)).ToList();
                     
-                  
-
             }
             else
             {
-
-
-             
 
                 if(!string.IsNullOrWhiteSpace(range))
                 {
@@ -78,36 +66,11 @@ namespace APILibrary.Core.Controllers
                     }
                 }
 
-                
-               
                 return Ok(null);
-                
-               
+
             }
-            
 
         }
-
-
-
-
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         [ProducesResponseType((int)HttpStatusCode.OK)]
         [ProducesResponseType((int)HttpStatusCode.NotFound)]
@@ -138,7 +101,7 @@ namespace APILibrary.Core.Controllers
                 var result = query.SingleOrDefault(x => x.ID == id);
                 if (result != null)
                 {
-                    
+
                     return Ok(ToJson(result));
                 }
                 else

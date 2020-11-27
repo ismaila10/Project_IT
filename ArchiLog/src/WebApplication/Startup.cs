@@ -12,10 +12,13 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using WebApplication.Data;
+<<<<<<< HEAD
 using APILibrary.Options;
 using Microsoft.OpenApi.Models;
 using APILibrary.Core.IdentityUserModel;
 using APILibrary.Core.Models;
+=======
+>>>>>>> main
 
 namespace WebApplication
 {
@@ -32,12 +35,13 @@ namespace WebApplication
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            //ajout de la dép. EatDbContext. Configuration avec le type de bdd et chaine de connexion
+            //ajout de la d?p. EatDbContext. Configuration avec le type de bdd et chaine de connexion
             services.AddDbContext<EatDbContext>(db =>
                     
                     db.UseLoggerFactory(EatDbContext.SqlLogger)
                     .UseSqlServer(Configuration.GetConnectionString("EatConnectionString"))
             );
+<<<<<<< HEAD
 
             services.AddSwaggerGen(c=>
                  c.SwaggerDoc("v1", new OpenApiInfo
@@ -66,6 +70,8 @@ namespace WebApplication
            // services.AddIdentity<User, Role>().AddEntityFrameworkStores<EatDbContext>();
 
 
+=======
+>>>>>>> main
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -74,16 +80,11 @@ namespace WebApplication
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-
-                //app.UseSwagger();
-                ///app.UseSwaggerUI(c =>
-                //{
-                  //  c.SwaggerEndpoint("v1/swagger.json", "MyAPI V1");
-                //});
             }
 
             //app.UseHttpsRedirection();
 
+<<<<<<< HEAD
             //ajout du swagger à notre application
             var swaggerOptions = new SwaggerOptions();
 
@@ -93,17 +94,16 @@ namespace WebApplication
 
             app.UseStaticFiles();
             app.UseHttpsRedirection();
+=======
+>>>>>>> main
             app.UseRouting();
 
             //app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
-            
-        });
+                endpoints.MapControllers();
+            });
         }
     }
 }

@@ -26,7 +26,7 @@ namespace APILibrary.Core.Extensions
                     var isPresentAttribute = prop.CustomAttributes
                          .Any(x => x.AttributeType == typeof(NotJsonAttribute));
                     if (!isPresentAttribute)
-                      expo.Add(prop.Name, prop.GetValue(value));
+                        expo.Add(prop.Name, prop.GetValue(value));
                 }
                 else
                 {
@@ -48,7 +48,8 @@ namespace APILibrary.Core.Extensions
 
             var lambda = Expression.Lambda<Func<TModel, dynamic>>(body, parameter);
 
-            return query.Select(lambda).OrderByDescending(x=>Expression.Property(parameter, "Lastname"));
+
+            return query.Select(lambda);
         }
 
         public static IQueryable<TModel> SelectModel<TModel>(this IQueryable<TModel> query, string[] fields) where TModel : ModelBase
@@ -79,13 +80,6 @@ namespace APILibrary.Core.Extensions
 
             return query.Skip(Star).Take(Endindex-starIndex+1);
         }
-
-
-        
-
-
-
-
 
     }
 }

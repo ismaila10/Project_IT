@@ -132,6 +132,7 @@ D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcorea
 D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.Swagger.dll
 D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerGen.dll
 D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerUI.dll
+<<<<<<< HEAD
 D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/CryptoHelper.dll
 D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.Internal.dll
 D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
@@ -140,6 +141,8 @@ D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcorea
 D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Stores.dll
 D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/OpenIddict.Abstractions.dll
 D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/OpenIddict.Core.dll
+=======
+>>>>>>> main
 D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csproj.CoreCompileInputs.cache
 D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.MvcApplicationPartsAssemblyInfo.cs
 D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.MvcApplicationPartsAssemblyInfo.cache
@@ -151,10 +154,13 @@ D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/obj/Debug/netcorea
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.dll
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.pdb
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/AutoMapper.dll
+<<<<<<< HEAD
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/CryptoHelper.dll
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.Internal.dll
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+=======
+>>>>>>> main
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Bcl.AsyncInterfaces.dll
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Bcl.HashCode.dll
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Data.SqlClient.dll
@@ -172,8 +178,11 @@ D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/obj/Debug/netcorea
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyModel.dll
+<<<<<<< HEAD
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Core.dll
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Stores.dll
+=======
+>>>>>>> main
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll
@@ -186,8 +195,11 @@ D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/obj/Debug/netcorea
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.OpenApi.dll
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+<<<<<<< HEAD
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/OpenIddict.Abstractions.dll
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/OpenIddict.Core.dll
+=======
+>>>>>>> main
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.Swagger.dll
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerGen.dll
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerUI.dll
