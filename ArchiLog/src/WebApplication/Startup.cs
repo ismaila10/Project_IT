@@ -12,11 +12,10 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using WebApplication.Data;
-using APILibrary.Options;
 using Microsoft.OpenApi.Models;
 using APILibrary.Core.IdentityUserModel;
 using APILibrary.Core.Models;
-
+using Swashbuckle.AspNetCore.Swagger;
 
 namespace WebApplication
 {
@@ -78,7 +77,6 @@ namespace WebApplication
             }
 
             //app.UseHttpsRedirection();
-
 
             //ajout du swagger ? notre application
             var swaggerOptions = new SwaggerOptions();

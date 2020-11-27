@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3FQj/OqxhMl3aT1UaIPe/TWQKeNJOu0I5FfkRfuGO7XGyfDg4A2ChF2mLDui3QMkjoO/M7YoCHBtEYmpq3+PuQ==",
+  "dgSpecHash": "nOLHb30o61QpR+1wABPUlJRNVLpId3dVcm8KyLDJWJ5q+Xra15iwTNhmNcBHvi6lsGjJehh9Gu2C4tlo73D6bA==",
   "success": true,
   "projectFilePath": "/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary.Test/APILibrary.Test.csproj",
   "expectedPackageFiles": [
@@ -39,6 +39,7 @@
     "/Users/ismailadiallo/.nuget/packages/nunit/3.12.0/nunit.3.12.0.nupkg.sha512",
     "/Users/ismailadiallo/.nuget/packages/nunit3testadapter/3.15.1/nunit3testadapter.3.15.1.nupkg.sha512",
     "/Users/ismailadiallo/.nuget/packages/runtime.native.system/4.3.0/runtime.native.system.4.3.0.nupkg.sha512",
+    "/Users/ismailadiallo/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
     "/Users/ismailadiallo/.nuget/packages/system.appcontext/4.1.0/system.appcontext.4.1.0.nupkg.sha512",
     "/Users/ismailadiallo/.nuget/packages/system.collections/4.3.0/system.collections.4.3.0.nupkg.sha512",
     "/Users/ismailadiallo/.nuget/packages/system.collections.immutable/1.7.1/system.collections.immutable.1.7.1.nupkg.sha512",

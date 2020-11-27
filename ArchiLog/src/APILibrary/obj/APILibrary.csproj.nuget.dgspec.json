@@ -79,6 +79,10 @@
             "OpenIddict.Core": {
               "target": "Package",
               "version": "[2.0.1, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[5.6.3, )"
             }
           },
           "imports": [
