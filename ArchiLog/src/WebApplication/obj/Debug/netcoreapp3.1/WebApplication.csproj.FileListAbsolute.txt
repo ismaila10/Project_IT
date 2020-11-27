@@ -205,3 +205,4 @@ D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/obj/Debug/netcorea
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.dll
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.pdb
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.genruntimeconfig.cache
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/StringToExpression.dll

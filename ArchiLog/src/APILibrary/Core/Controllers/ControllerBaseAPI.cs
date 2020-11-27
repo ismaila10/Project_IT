@@ -1,5 +1,6 @@
 ﻿using APILibrary.Core.Attributes;
 using APILibrary.Core.Extensions;
+using APILibrary.Core.Filters;
 using APILibrary.Core.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -32,9 +33,27 @@ namespace APILibrary.Core.Controllers
 
         [ProducesResponseType((int)HttpStatusCode.OK)]
         [HttpGet]
-        public virtual async Task<ActionResult<IEnumerable<dynamic>>> GetAllAsync([FromQuery] string fields)
+        public virtual async Task<ActionResult<IEnumerable<dynamic>>> GetAllAsync([FromQuery] string fields, [FromQuery] string filters)
         {
             var query = _context.Set<TModel>().AsQueryable();
+            filters = "FirstName=Mamadou,Ismaila&Lastname=Diallo";
+
+            //query = query.Filtera("FirstName", "Ismaila");
+
+            if (!string.IsNullOrWhiteSpace(filters))
+            {
+                var tab = filters.Split('&');
+                var filterColumn = "";
+                for(var i = 0; i < tab.Length; i++)
+                {
+                    var tab1 = tab[0].Split('=');
+                    filterColumn = tab1[0];
+                    var tab2 = tab1[1].Split(',');
+
+                }
+
+
+            }
 
             if (!string.IsNullOrWhiteSpace(fields))
             {
@@ -60,7 +79,6 @@ namespace APILibrary.Core.Controllers
         {
             var query = _context.Set<TModel>().AsQueryable();
             //solution 2: optimisation de la requete SQL
-
             if (!string.IsNullOrWhiteSpace(fields))
             {
                 var tab = new List<string>(fields.Split(','));

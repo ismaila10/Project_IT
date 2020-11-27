@@ -680,6 +680,18 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+      "StringToExpression/1.1.1": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.0/StringToExpression.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/StringToExpression.dll": {}
+        }
+      },
       "System.AppContext/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -2489,6 +2501,19 @@
         "lib/netstandard1.0/_._",
         "runtime.native.system.4.3.0.nupkg.sha512",
         "runtime.native.system.nuspec"
+      ]
+    },
+    "StringToExpression/1.1.1": {
+      "sha512": "alvVGhlr7+QN6QYHflAwKeonvW0eAjt6lzWo0g0VJLIXaOicx2wERDqvwi1524HdZ2VxwINwJA+GS7Pcf+Rm6g==",
+      "type": "package",
+      "path": "stringtoexpression/1.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/StringToExpression.dll",
+        "lib/netstandard1.0/StringToExpression.dll",
+        "stringtoexpression.1.1.1.nupkg.sha512",
+        "stringtoexpression.nuspec"
       ]
     },
     "System.AppContext/4.1.0": {
@@ -5337,6 +5362,7 @@
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.9",
       "Microsoft.NET.Test.Sdk >= 16.4.0",
       "NUnit3TestAdapter >= 3.15.1",
+      "StringToExpression >= 1.1.1",
       "nunit >= 3.12.0"
     ]
   },
@@ -5394,6 +5420,10 @@
           "NUnit3TestAdapter": {
             "target": "Package",
             "version": "[3.15.1, )"
+          },
+          "StringToExpression": {
+            "target": "Package",
+            "version": "[1.1.1, )"
           },
           "nunit": {
             "target": "Package",
