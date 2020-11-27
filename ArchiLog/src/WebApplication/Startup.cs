@@ -14,6 +14,8 @@ using Microsoft.Extensions.Logging;
 using WebApplication.Data;
 using APILibrary.Options;
 using Microsoft.OpenApi.Models;
+using APILibrary.Core.IdentityUserModel;
+using APILibrary.Core.Models;
 
 namespace WebApplication
 {
@@ -32,7 +34,8 @@ namespace WebApplication
             services.AddControllers();
             //ajout de la dép. EatDbContext. Configuration avec le type de bdd et chaine de connexion
             services.AddDbContext<EatDbContext>(db =>
-                db.UseLoggerFactory(EatDbContext.SqlLogger)
+                    
+                    db.UseLoggerFactory(EatDbContext.SqlLogger)
                     .UseSqlServer(Configuration.GetConnectionString("EatConnectionString"))
             );
 
@@ -60,6 +63,9 @@ namespace WebApplication
                 );
 
 
+           // services.AddIdentity<User, Role>().AddEntityFrameworkStores<EatDbContext>();
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -80,6 +86,7 @@ namespace WebApplication
 
             //ajout du swagger à notre application
             var swaggerOptions = new SwaggerOptions();
+
             Configuration.GetSection(nameof(swaggerOptions)).Bind(swaggerOptions);
             app.UseSwagger(options => options.RouteTemplate = swaggerOptions.JsonRoute);
             app.UseSwaggerUI(options => options.SwaggerEndpoint(swaggerOptions.UIEndpoint, swaggerOptions.Description));
