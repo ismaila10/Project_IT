@@ -1,13 +1,13 @@
 ﻿<Properties StartupConfiguration="{8A61986B-8AE5-4F02-B714-B2D9AEA5ACC6}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/APILibrary/Core/Controllers/ControllerBaseAPI.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/APILibrary/Core/Models/ModelBase.cs">
     <Files>
       <File FileName="src/WebApplication/appsettings.json" Line="22" Column="1" />
-      <File FileName="src/APILibrary/Core/Extensions/IQueryableExtensions.cs" />
-      <File FileName="src/APILibrary/Core/Controllers/ControllerBaseAPI.cs" Line="78" Column="57" />
+      <File FileName="src/APILibrary/Core/Extensions/IQueryableExtensions.cs" Line="67" Column="10" />
+      <File FileName="src/APILibrary/Core/Controllers/ControllerBaseAPI.cs" Line="11" Column="25" />
       <File FileName="src/WebApplication/Program.cs" />
       <File FileName="src/WebApplication/Dockerfile" />
-      <File FileName="src/APILibrary/Core/Models/ModelBase.cs" />
-      <File FileName="src/APILibrary/Core/Attributes/NotJsonAttribute.cs" />
+      <File FileName="src/APILibrary/Core/Models/ModelBase.cs" Line="12" Column="1" />
+      <File FileName="src/APILibrary/Core/Attributes/NotJsonAttribute.cs" Line="1" Column="1" />
       <File FileName="src/APILibrary.Test/UnitTest1.cs" />
       <File FileName="src/WebApplication/Controllers/CustomersController.cs" />
       <File FileName="src/WebApplication/Controllers/PizzasController.cs" />
@@ -21,9 +21,6 @@
       <File FileName="src/WebApplication/Startup.cs" />
       <File FileName="src/WebApplication/appsettings.Development.json" />
       <File FileName="src/WebApplication/obj/WebApplication.csproj.nuget.g.props" />
-      <File FileName="src/APILibrary/Core/Pagination/PageResponse.cs" />
-      <File FileName="src/APILibrary/Core/Models/Role.cs" />
-      <File FileName="src/APILibrary/Core/Models/User.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -32,10 +29,12 @@
             <Node name="src" expanded="True">
               <Node name="APILibrary" expanded="True">
                 <Node name="Core" expanded="True">
-                  <Node name="Controllers" expanded="True">
-                    <Node name="ControllerBaseAPI.cs" selected="True" />
+                  <Node name="Attributes" expanded="True" />
+                  <Node name="Controllers" expanded="True" />
+                  <Node name="Extensions" expanded="True" />
+                  <Node name="Models" expanded="True">
+                    <Node name="ModelBase.cs" selected="True" />
                   </Node>
-                  <Node name="Pagination" expanded="True" />
                 </Node>
               </Node>
               <Node name="WebApplication" expanded="True">
