@@ -220,7 +220,6 @@ D:/Mes Cours Ynov/archilog/ArchiLog/src/APILibrary.Test/obj/Debug/netcoreapp3.1/
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary.Test/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary.Test/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary.Test/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary.Test/obj/Debug/netcoreapp3.1/APILibrary.Test.csprojAssemblyReference.cache
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary.Test/obj/Debug/netcoreapp3.1/APILibrary.Test.AssemblyInfoInputs.cache
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary.Test/obj/Debug/netcoreapp3.1/APILibrary.Test.AssemblyInfo.cs
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary.Test/obj/Debug/netcoreapp3.1/APILibrary.Test.csproj.CoreCompileInputs.cache
