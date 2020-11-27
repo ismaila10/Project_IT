@@ -1,6 +1,7 @@
 ﻿using APILibrary.Core.Attributes;
 using APILibrary.Core.Extensions;
 using APILibrary.Core.Models;
+using APILibrary.Core.Pagination;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -32,8 +33,8 @@ namespace APILibrary.Core.Controllers
 
         [ProducesResponseType((int)HttpStatusCode.OK)]
         [HttpGet]
-        public virtual async Task<ActionResult<IEnumerable<dynamic>>> GetAllAsync([FromQuery] string fields)
-        {
+        public virtual async Task<ActionResult<IEnumerable<dynamic>>> GetAllAsync([FromQuery] string fields, [FromQuery] string range,[FromQuery] string sort)
+        {   
             var query = _context.Set<TModel>().AsQueryable();
 
             if (!string.IsNullOrWhiteSpace(fields))
@@ -42,13 +43,31 @@ namespace APILibrary.Core.Controllers
 
                 // var results = await IQueryableExtensions.SelectDynamic<TModel>(query, tab).ToListAsync();
                 var results = await query.SelectDynamic(tab).ToListAsync();
-
-                return results.Select((x) => IQueryableExtensions.SelectObject(x, tab)).ToList();
-
+                  return results.Select((x) => IQueryableExtensions.SelectObject(x, tab)).ToList();
+                    
             }
             else
             {
-                return Ok(ToJsonList(await query.ToListAsync()));
+
+                if(!string.IsNullOrWhiteSpace(range))
+                {
+                           
+                    var Tabrange = range.Split("-");
+
+                    if (Tabrange.Length == 2 && (Int16.Parse(Tabrange[0]) <  Int16.Parse(Tabrange[1])))
+                    { 
+                        var Collection = ToJsonList(await query.PaginationModel(Int16.Parse(Tabrange[0]), Int16.Parse(Tabrange[1])).ToListAsync());
+                        var PaginationResult = new PageResponse<IEnumerable<dynamic>>(Collection, Tabrange, query.Count(),Request);
+                        return Ok(PaginationResult); 
+                    }
+                    else
+                    {
+                        return NotFound(new { Message = $"range {range} Parameter Error" });
+                    }
+                }
+
+                return Ok(null);
+
             }
 
         }
