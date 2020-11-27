@@ -15,23 +15,23 @@ namespace APILibrary.Core.Pagination
             var start = Int16.Parse(Tab[0]);
             var Endindex = Int16.Parse(Tab[1]);
 
-            rel_First = $"{request.Path}/{request.QueryString}";
+            Rel_First = $"{request.Path}/{request.QueryString}";
 
             if (start - Page_Maxsize < 0)
-                rel_Previous = "0";
+                Rel_Previous = "0";
 
             if( Endindex + Page_Maxsize < MaxCollectionSize)
-               rel_Next= $"?range=[{Endindex},{Endindex +Page_Maxsize}]";
+               Rel_Next= $"?range=[{Endindex},{Endindex +Page_Maxsize}]";
 
         }
 
         public int Get_MaxpageSize() { return Page_Maxsize; }
 
-        private int Page_Maxsize = 50;
+        private readonly int Page_Maxsize = 50;
         public T Data{get;set;}
-        public string rel_First { get; set; }
-        public string rel_Next { get; set; }
-        public string rel_Previous { get; set; }
-        public string rel_Last { get; set; }
+        public string Rel_First { get; set; }
+        public string Rel_Next { get; set; }
+        public string Rel_Previous { get; set; }
+        public string Rel_Last { get; set; }
     }
 }

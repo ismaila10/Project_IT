@@ -16,6 +16,9 @@ using APILibrary.Options;
 using Microsoft.OpenApi.Models;
 using APILibrary.Core.IdentityUserModel;
 using APILibrary.Core.Models;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 namespace WebApplication
 {
@@ -31,10 +34,12 @@ namespace WebApplication
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
+          
+
             services.AddControllers();
             //ajout de la dép. EatDbContext. Configuration avec le type de bdd et chaine de connexion
             services.AddDbContext<EatDbContext>(db =>
-                    
                     db.UseLoggerFactory(EatDbContext.SqlLogger)
                     .UseSqlServer(Configuration.GetConnectionString("EatConnectionString"))
             );
@@ -63,7 +68,32 @@ namespace WebApplication
                 );
 
 
-           // services.AddIdentity<User, Role>().AddEntityFrameworkStores<EatDbContext>();
+
+            /*
+            services.AddIdentity<User, Role>().AddEntityFrameworkStores<EatDbContext>();
+            services.AddAuthentication("Bearer")
+              .AddJwtBearer("Bearer", options =>
+              {
+                  //options.Authority = "https://localhost:5001";
+
+                  options.RequireHttpsMetadata = false;
+                  options.SaveToken = true;
+                  //options.Audience = "testapi";
+                  options.TokenValidationParameters = new TokenValidationParameters
+                  {
+                      ValidateAudience = true,
+                      ValidateIssuer = false,
+                      IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes("myKey")),
+                      ValidateIssuerSigningKey = true,  
+                  };
+
+              });*/
+
+
+
+
+
+
 
 
         }
@@ -74,12 +104,6 @@ namespace WebApplication
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-
-                //app.UseSwagger();
-                ///app.UseSwaggerUI(c =>
-                //{
-                  //  c.SwaggerEndpoint("v1/swagger.json", "MyAPI V1");
-                //});
             }
 
             //app.UseHttpsRedirection();
@@ -94,16 +118,17 @@ namespace WebApplication
             app.UseStaticFiles();
             app.UseHttpsRedirection();
             app.UseRouting();
+            
+            //app.UseAuthentication();
+            app.UseAuthorization();
 
-            //app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
-            
-        });
+            });
         }
     }
 }

@@ -80,12 +80,5 @@ namespace APILibrary.Core.Extensions
             return query.Skip(Star).Take(Endindex-starIndex+1);
         }
 
-
-        
-
-
-
-
-
     }
 }
