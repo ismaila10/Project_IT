@@ -35,7 +35,7 @@ namespace APILibrary.Core.Extensions
             }
             return expo;
         }
-
+        //By Imam
         public static IQueryable<dynamic> SelectDynamic<TModel>(this IQueryable<TModel> query, string[] fields) where TModel : ModelBase
         {
             var parameter = Expression.Parameter(typeof(TModel), "x");

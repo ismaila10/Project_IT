@@ -24,7 +24,7 @@ namespace APILibrary.Core.Pagination
                rel_Next= $"?range=[{Endindex},{Endindex +Page_Maxsize}]";
 
         }
-
+        //By Project_IT
         public int Get_MaxpageSize() { return Page_Maxsize; }
 
         private int Page_Maxsize = 50;
