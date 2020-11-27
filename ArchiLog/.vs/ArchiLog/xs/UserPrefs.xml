@@ -1,42 +1,22 @@
-﻿<Properties StartupConfiguration="{85D8E8B1-91C4-408F-87CE-3E43EA4D030C}|Tests unitaires">
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/APILibrary/Core/Attributes/NotJsonAttribute.cs">
+﻿<Properties StartupConfiguration="{8A61986B-8AE5-4F02-B714-B2D9AEA5ACC6}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/WebApplication/Dockerfile">
     <Files>
-      <File FileName="src/WebApplication/appsettings.json" Line="22" Column="1" />
-      <File FileName="src/APILibrary/Core/Controllers/ControllerBaseAPI.cs" Line="9" Column="19" />
-      <File FileName="src/APILibrary/Core/Extensions/IQueryableExtensions.cs" Line="50" Column="1" />
-      <File FileName="src/APILibrary/Core/Models/ModelBase.cs" Line="12" Column="1" />
-      <File FileName="src/APILibrary.Test/UnitTest1.cs" Line="1" Column="1" />
-      <File FileName="src/WebApplication/Controllers/CustomersController.cs" Line="1" Column="1" />
-      <File FileName="src/WebApplication/Controllers/PizzasController.cs" Line="1" Column="1" />
-      <File FileName="src/WebApplication/Data/EatDbContext.cs" Line="1" Column="1" />
-      <File FileName="src/WebApplication/Migrations/EatDbContextModelSnapshot.cs" Line="1" Column="1" />
-      <File FileName="src/WebApplication/Migrations/20201105084301_AddCustomers.cs" Line="1" Column="1" />
-      <File FileName="src/WebApplication/Migrations/20201030142541_Init.cs" Line="1" Column="1" />
-      <File FileName="src/WebApplication/Program.cs" Line="1" Column="1" />
-      <File FileName="src/WebApplication/Startup.cs" Line="59" Column="1" />
-      <File FileName="src/WebApplication/Properties/launchSettings.json" Line="1" Column="1" />
-      <File FileName="src/APILibrary/Core/Attributes/NotJsonAttribute.cs" Line="12" Column="1" />
+      <File FileName="src/WebApplication/appsettings.json" />
+      <File FileName="src/APILibrary/Core/Extensions/IQueryableExtensions.cs" />
+      <File FileName="src/APILibrary/Core/Controllers/ControllerBaseAPI.cs" />
+      <File FileName="src/WebApplication/Program.cs" />
+      <File FileName="src/WebApplication/Dockerfile" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="ArchiLog" expanded="True">
-            <Node name="src" expanded="True">
-              <Node name="APILibrary" expanded="True">
-                <Node name="Core" expanded="True">
-                  <Node name="Extensions" expanded="True" />
-                </Node>
-              </Node>
-              <Node name="WebApplication" expanded="True" />
-            </Node>
-          </Node>
+          <Node name="ArchiLog" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.src.WebApplication PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.src.APILibrary.Test PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
