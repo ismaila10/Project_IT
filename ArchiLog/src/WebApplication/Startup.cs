@@ -12,13 +12,10 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using WebApplication.Data;
-<<<<<<< HEAD
-using APILibrary.Options;
 using Microsoft.OpenApi.Models;
 using APILibrary.Core.IdentityUserModel;
 using APILibrary.Core.Models;
-=======
->>>>>>> main
+using Swashbuckle.AspNetCore.Swagger;
 
 namespace WebApplication
 {
@@ -41,7 +38,6 @@ namespace WebApplication
                     db.UseLoggerFactory(EatDbContext.SqlLogger)
                     .UseSqlServer(Configuration.GetConnectionString("EatConnectionString"))
             );
-<<<<<<< HEAD
 
             services.AddSwaggerGen(c=>
                  c.SwaggerDoc("v1", new OpenApiInfo
@@ -70,8 +66,6 @@ namespace WebApplication
            // services.AddIdentity<User, Role>().AddEntityFrameworkStores<EatDbContext>();
 
 
-=======
->>>>>>> main
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -84,8 +78,7 @@ namespace WebApplication
 
             //app.UseHttpsRedirection();
 
-<<<<<<< HEAD
-            //ajout du swagger à notre application
+            //ajout du swagger ? notre application
             var swaggerOptions = new SwaggerOptions();
 
             Configuration.GetSection(nameof(swaggerOptions)).Bind(swaggerOptions);
@@ -94,8 +87,7 @@ namespace WebApplication
 
             app.UseStaticFiles();
             app.UseHttpsRedirection();
-=======
->>>>>>> main
+
             app.UseRouting();
 
             //app.UseAuthorization();

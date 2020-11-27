@@ -152,6 +152,7 @@ D:/Mes Cours Ynov/archilog/ArchiLog/src/APILibrary.Test/obj/Debug/netcoreapp3.1/
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary.Test/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary.Test/bin/Debug/netcoreapp3.1/NuGet.Frameworks.dll
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary.Test/bin/Debug/netcoreapp3.1/nunit.framework.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary.Test/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerUI.dll
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary.Test/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary.Test/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary.Test/bin/Debug/netcoreapp3.1/System.Xml.XPath.XmlDocument.dll
