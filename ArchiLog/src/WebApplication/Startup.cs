@@ -24,14 +24,15 @@ namespace WebApplication
         {
             Configuration = configuration;
         }
-
+        //hjsbhjbjb
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            //ajout de la dép. EatDbContext. Configuration avec le type de bdd et chaine de connexion
+
+            //ajout de la d?p. EatDbContext. Configuration avec le type de bdd et chaine de connexion
             services.AddDbContext<EatDbContext>(db =>
                 db.UseLoggerFactory(EatDbContext.SqlLogger)
                     .UseSqlServer(Configuration.GetConnectionString("EatConnectionString"))
@@ -48,6 +49,15 @@ namespace WebApplication
 
             //app.UseHttpsRedirection();
 
+            //ajout du swagger ? notre application
+            var swaggerOptions = new SwaggerOptions();
+
+            Configuration.GetSection(nameof(swaggerOptions)).Bind(swaggerOptions);
+            /*app.UseSwagger(options => options.RouteTemplate = swaggerOptions.JsonRoute);
+            app.UseSwaggerUI(options => options.SwaggerEndpoint(swaggerOptions.UIEndpoint, swaggerOptions.Description));*/
+
+            app.UseStaticFiles();
+            app.UseHttpsRedirection();
             app.UseRouting();
 
             //app.UseAuthorization();
