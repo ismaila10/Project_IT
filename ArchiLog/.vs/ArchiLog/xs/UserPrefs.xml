@@ -1,25 +1,25 @@
 ﻿<Properties StartupConfiguration="{8A61986B-8AE5-4F02-B714-B2D9AEA5ACC6}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/APILibrary/Core/Models/ModelBase.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/APILibrary/Core/Controllers/ControllerBaseAPI.cs">
     <Files>
-      <File FileName="src/WebApplication/appsettings.json" Line="22" Column="1" />
-      <File FileName="src/APILibrary/Core/Extensions/IQueryableExtensions.cs" Line="67" Column="10" />
-      <File FileName="src/APILibrary/Core/Controllers/ControllerBaseAPI.cs" Line="11" Column="25" />
-      <File FileName="src/WebApplication/Program.cs" />
+      <File FileName="src/WebApplication/appsettings.json" Line="1" Column="2" />
+      <File FileName="src/APILibrary/Core/Extensions/IQueryableExtensions.cs" Line="23" Column="41" />
+      <File FileName="src/APILibrary/Core/Controllers/ControllerBaseAPI.cs" Line="40" Column="15" />
+      <File FileName="src/WebApplication/Program.cs" Line="1" Column="1" />
       <File FileName="src/WebApplication/Dockerfile" />
       <File FileName="src/APILibrary/Core/Models/ModelBase.cs" Line="12" Column="1" />
       <File FileName="src/APILibrary/Core/Attributes/NotJsonAttribute.cs" Line="1" Column="1" />
-      <File FileName="src/APILibrary.Test/UnitTest1.cs" />
-      <File FileName="src/WebApplication/Controllers/CustomersController.cs" />
-      <File FileName="src/WebApplication/Controllers/PizzasController.cs" />
-      <File FileName="src/WebApplication/Data/EatDbContext.cs" />
+      <File FileName="src/APILibrary.Test/UnitTest1.cs" Line="1" Column="1" />
+      <File FileName="src/WebApplication/Controllers/CustomersController.cs" Line="1" Column="1" />
+      <File FileName="src/WebApplication/Controllers/PizzasController.cs" Line="1" Column="1" />
+      <File FileName="src/WebApplication/Data/EatDbContext.cs" Line="2" Column="1" />
       <File FileName="src/WebApplication/Migrations/20201030142541_Init.cs" />
       <File FileName="src/WebApplication/Migrations/20201105084301_AddCustomers.cs" />
       <File FileName="src/WebApplication/Migrations/EatDbContextModelSnapshot.cs" />
-      <File FileName="src/WebApplication/Models/Customer.cs" />
-      <File FileName="src/WebApplication/Models/Pizza.cs" />
-      <File FileName="src/WebApplication/Properties/launchSettings.json" />
-      <File FileName="src/WebApplication/Startup.cs" />
-      <File FileName="src/WebApplication/appsettings.Development.json" />
+      <File FileName="src/WebApplication/Models/Customer.cs" Line="1" Column="1" />
+      <File FileName="src/WebApplication/Models/Pizza.cs" Line="1" Column="1" />
+      <File FileName="src/WebApplication/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="src/WebApplication/Startup.cs" Line="15" Column="32" />
+      <File FileName="src/WebApplication/appsettings.Development.json" Line="10" Column="1" />
       <File FileName="src/WebApplication/obj/WebApplication.csproj.nuget.g.props" />
     </Files>
     <Pads>
@@ -29,16 +29,13 @@
             <Node name="src" expanded="True">
               <Node name="APILibrary" expanded="True">
                 <Node name="Core" expanded="True">
-                  <Node name="Attributes" expanded="True" />
                   <Node name="Controllers" expanded="True" />
                   <Node name="Extensions" expanded="True" />
-                  <Node name="Models" expanded="True">
-                    <Node name="ModelBase.cs" selected="True" />
-                  </Node>
                 </Node>
               </Node>
+              <Node name="APILibrary.Test" expanded="True" />
               <Node name="WebApplication" expanded="True">
-                <Node name="appsettings.json" expanded="True" />
+                <Node name="Controllers" expanded="True" />
               </Node>
             </Node>
           </Node>
