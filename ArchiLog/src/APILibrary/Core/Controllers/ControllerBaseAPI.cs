@@ -40,21 +40,28 @@ namespace APILibrary.Core.Controllers
         [ProducesResponseType((int)HttpStatusCode.OK)]
         [HttpGet]
        
-        public virtual async Task<ActionResult<IEnumerable<dynamic>>> GetAllAsync([FromQuery] string fields, [FromQuery] string range,[FromQuery] string sort)
+        public virtual async Task<ActionResult<IEnumerable<dynamic>>> GetAllAsync([FromQuery] string fields, [FromQuery] string range,[FromQuery] string sort, [FromQuery] string FilterBy)
         {           
             
             var query = _context.Set<TModel>().AsQueryable();
+            string teste = FilterBy;
+
+
+            if (!string.IsNullOrEmpty(FilterBy))
+                query = query.Where(FilterBy);
 
             if (!string.IsNullOrWhiteSpace(sort))
-            {  
                 query = query.OrderBy(sort);
-            }
+            
+            
+
+            return Ok(await query.ToArrayAsync());
 
             // filter
 
 
 
-            //range
+            /*
             if (!string.IsNullOrWhiteSpace(range))
             {
 
@@ -80,7 +87,7 @@ namespace APILibrary.Core.Controllers
                // }
             }
 
-
+            */
 
 
             return null;
