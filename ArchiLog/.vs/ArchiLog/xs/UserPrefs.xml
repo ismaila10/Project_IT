@@ -1,0 +1,55 @@
+﻿<Properties StartupConfiguration="{8A61986B-8AE5-4F02-B714-B2D9AEA5ACC6}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/WebApplication/Startup.cs">
+    <Files>
+      <File FileName="src/WebApplication/appsettings.json" Line="18" Column="173" />
+      <File FileName="src/APILibrary/Core/Extensions/IQueryableExtensions.cs" Line="9" Column="19" />
+      <File FileName="src/APILibrary/Core/Controllers/ControllerBaseAPI.cs" Line="19" Column="32" />
+      <File FileName="src/WebApplication/Program.cs" Line="1" Column="1" />
+      <File FileName="src/WebApplication/Dockerfile" Line="1" Column="1" />
+      <File FileName="src/APILibrary/Core/Models/ModelBase.cs" Line="12" Column="1" />
+      <File FileName="src/APILibrary/Core/Attributes/NotJsonAttribute.cs" Line="1" Column="1" />
+      <File FileName="src/APILibrary.Test/UnitTest1.cs" Line="1" Column="1" />
+      <File FileName="src/WebApplication/Controllers/CustomersController.cs" Line="15" Column="5" />
+      <File FileName="src/WebApplication/Controllers/PizzasController.cs" Line="1" Column="1" />
+      <File FileName="src/WebApplication/Data/EatDbContext.cs" Line="14" Column="1" />
+      <File FileName="src/WebApplication/Migrations/20201030142541_Init.cs" />
+      <File FileName="src/WebApplication/Migrations/20201105084301_AddCustomers.cs" />
+      <File FileName="src/WebApplication/Migrations/EatDbContextModelSnapshot.cs" />
+      <File FileName="src/WebApplication/Models/Customer.cs" Line="13" Column="38" />
+      <File FileName="src/WebApplication/Models/Pizza.cs" Line="1" Column="1" />
+      <File FileName="src/WebApplication/Properties/launchSettings.json" Line="3" Column="1" />
+      <File FileName="src/WebApplication/Startup.cs" Line="65" Column="20" />
+      <File FileName="src/WebApplication/appsettings.Development.json" Line="10" Column="1" />
+      <File FileName="src/APILibrary/Core/Models/Role.cs" Line="11" Column="5" />
+      <File FileName="src/APILibrary/Core/Pagination/PageResponse.cs" Line="1" Column="1" />
+      <File FileName="src/APILibrary/Options/SwaggerOptions.cs" Line="13" Column="1" />
+      <File FileName="src/APILibrary/Core/Models/User.cs" Line="1" Column="1" />
+      <File FileName="src/APILibrary/Core/Extensions/OrderbyExtension.cs" Line="16" Column="39" />
+      <File FileName="src/APILibrary/APILibrary.csproj" Line="13" Column="41" />
+      <File FileName="src/WebApplication/tempkey.rsa" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ArchiLog" expanded="True">
+            <Node name="src" expanded="True">
+              <Node name="APILibrary" expanded="True">
+                <Node name="Core" expanded="True" />
+              </Node>
+              <Node name="WebApplication" expanded="True">
+                <Node name="Startup.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.src.WebApplication PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
