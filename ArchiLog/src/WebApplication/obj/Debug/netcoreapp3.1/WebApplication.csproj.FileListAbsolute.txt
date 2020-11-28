@@ -1,0 +1,215 @@
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/appsettings.Development.json
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/appsettings.json
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.exe
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.deps.json
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.runtimeconfig.json
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.runtimeconfig.dev.json
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.dll
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.pdb
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Bcl.AsyncInterfaces.dll
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Bcl.HashCode.dll
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.DotNet.PlatformAbstractions.dll
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.SqlServer.dll
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.dll
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyModel.dll
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Identity.Client.dll
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.JsonWebTokens.dll
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Logging.dll
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.dll
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/System.Runtime.Caching.dll
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/sni.dll
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/sni.dll
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/sni.dll
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.0/System.Runtime.Caching.dll
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.0/System.Runtime.Caching.dll
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/APILibrary.dll
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/APILibrary.pdb
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csprojAssemblyReference.cache
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.AssemblyInfoInputs.cache
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.AssemblyInfo.cs
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csproj.CoreCompileInputs.cache
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.MvcApplicationPartsAssemblyInfo.cs
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.MvcApplicationPartsAssemblyInfo.cache
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.RazorTargetAssemblyInfo.cache
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csproj.CopyComplete
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/staticwebassets/WebApplication.StaticWebAssets.Manifest.cache
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/staticwebassets/WebApplication.StaticWebAssets.xml
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.dll
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.pdb
+D:/Mes Cours Ynov/archilog/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.genruntimeconfig.cache
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/appsettings.Development.json
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/appsettings.json
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.exe
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.deps.json
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.runtimeconfig.json
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.runtimeconfig.dev.json
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.pdb
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Bcl.AsyncInterfaces.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Bcl.HashCode.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.DotNet.PlatformAbstractions.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.SqlServer.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyModel.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Identity.Client.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.JsonWebTokens.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Logging.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/System.Runtime.Caching.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/sni.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/sni.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/sni.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.0/System.Runtime.Caching.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.0/System.Runtime.Caching.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/APILibrary.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/APILibrary.pdb
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csprojAssemblyReference.cache
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.AssemblyInfoInputs.cache
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.AssemblyInfo.cs
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.RazorTargetAssemblyInfo.cache
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csproj.CopyComplete
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/staticwebassets/WebApplication.StaticWebAssets.Manifest.cache
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/staticwebassets/WebApplication.StaticWebAssets.xml
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.pdb
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.genruntimeconfig.cache
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.OpenApi.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.Swagger.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerGen.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerUI.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.Internal.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Core.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Stores.dll
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csproj.CoreCompileInputs.cache
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.MvcApplicationPartsAssemblyInfo.cs
+D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.MvcApplicationPartsAssemblyInfo.cache
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/appsettings.Development.json
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/appsettings.json
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.deps.json
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.runtimeconfig.json
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.runtimeconfig.dev.json
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.pdb
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Bcl.HashCode.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.DotNet.PlatformAbstractions.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyModel.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Core.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Stores.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.Identity.Client.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Logging.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Microsoft.OpenApi.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.Swagger.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/System.Runtime.Caching.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/sni.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/sni.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/sni.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.0/System.Runtime.Caching.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.0/System.Runtime.Caching.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/APILibrary.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/bin/Debug/netcoreapp3.1/APILibrary.pdb
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csprojAssemblyReference.cache
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.AssemblyInfoInputs.cache
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.AssemblyInfo.cs
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csproj.CoreCompileInputs.cache
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.MvcApplicationPartsAssemblyInfo.cs
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.MvcApplicationPartsAssemblyInfo.cache
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/staticwebassets/WebApplication.StaticWebAssets.Manifest.cache
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/staticwebassets/WebApplication.StaticWebAssets.xml
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/scopedcss/bundle/WebApplication.styles.css
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.RazorTargetAssemblyInfo.cache
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csproj.CopyComplete
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.dll
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.pdb
+/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.genruntimeconfig.cache
