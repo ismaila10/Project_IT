@@ -69,7 +69,7 @@ namespace WebApplication.Controllers
                 return Ok( this.GenerateToken(userI.Email));
             }
 
-            return Ok(new { Message = $"Bad request Login Falls" });
+            return BadRequest();
         }
 
 
