@@ -1,32 +1,26 @@
 ﻿using APILibrary.Core.Attributes;
 using APILibrary.Core.Extensions;
 using APILibrary.Core.Models;
-using APILibrary.Core.Pagination;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Swashbuckle.AspNetCore.Annotations;
 using System;
 using System.Collections.Generic;
 using System.Dynamic;
 using System.Linq;
 using System.Net;
 using System.Reflection;
-using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
+
 namespace APILibrary.Core.Controllers
 {
     [Produces("application/json")]
-    [SwaggerTag("Request about values")]
     [Route("api/[controller]")]
-   
     [ApiController]
+    
     public abstract class ControllerBaseAPI<TModel, TContext> : ControllerBase where TModel : ModelBase where TContext : DbContext
     {
         protected readonly TContext _context;
-        //private readonly SignInManager<UserT> signInManager;
-
         public ControllerBaseAPI(TContext context)
         {
             this._context = context;
@@ -35,10 +29,8 @@ namespace APILibrary.Core.Controllers
 
         
         [HttpGet]
-        [SwaggerOperation(Summary = "Gets two values", Description = "Gets two hardcoded values")]
-        [SwaggerResponse(200, "I guess everything worked")]
-        [SwaggerResponse(400, "BAD REQUUUUEST")]
-        
+        [ProducesResponseType((int)HttpStatusCode.OK)]
+        [Authorize]
         public virtual async Task<ActionResult<IEnumerable<dynamic>>> GetAllAsync([FromQuery] string fields, [FromQuery] string range,[FromQuery] string sort, [FromQuery] string FilterBy)
         {           
             

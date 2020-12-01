@@ -21,6 +21,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using System.Reflection;
 using System.IO;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 namespace WebApplication
 {
@@ -75,11 +76,15 @@ namespace WebApplication
                 );
 
 
-
-            /*
+            /*Ajouter les services nécessaire pour gérer nos Utilisateurs*/
             services.AddIdentity<User, Role>().AddEntityFrameworkStores<EatDbContext>();
-            services.AddAuthentication("Bearer")
-              .AddJwtBearer("Bearer", options =>
+            /*Configuration des jetons JWT pour protéger nos Apis*/
+            /*Installer Microsoft.AspNetCoreAuthentification*/
+           
+            services.AddAuthentication(options=>{ options.DefaultAuthenticateScheme = "JwtBearer";
+                options.DefaultChallengeScheme = "JwtBearer";
+            })
+              .AddJwtBearer("JwtBearer", options =>
               {
                   //options.Authority = "https://localhost:5001";
 
@@ -88,13 +93,15 @@ namespace WebApplication
                   //options.Audience = "testapi";
                   options.TokenValidationParameters = new TokenValidationParameters
                   {
-                      ValidateAudience = true,
+                      ValidateAudience = false,
                       ValidateIssuer = false,
-                      IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes("myKey")),
-                      ValidateIssuerSigningKey = true,  
+                      IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes("ICImachainesecreteTreslongue2020")),
+                      ValidateIssuerSigningKey = true,
+                      ValidateLifetime = true,
+                      ClockSkew = TimeSpan.FromMinutes(5)
                   };
 
-              });*/
+              });
 
 
 
@@ -123,10 +130,17 @@ namespace WebApplication
             app.UseSwaggerUI(options => options.SwaggerEndpoint(swaggerOptions.UIEndpoint, swaggerOptions.Description));
 
             app.UseStaticFiles();
+            ///app.UseAuthentication();
             app.UseHttpsRedirection();
             app.UseRouting();
             
-            //app.UseAuthentication();
+            //global cors policy
+            app.UseCors(x => x
+                .AllowAnyOrigin()
+                .AllowAnyMethod()
+                .AllowAnyHeader());
+
+            app.UseAuthentication();
             app.UseAuthorization();
 
 

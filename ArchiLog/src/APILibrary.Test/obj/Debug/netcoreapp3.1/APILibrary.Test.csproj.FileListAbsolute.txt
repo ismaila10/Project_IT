@@ -227,5 +227,4 @@ D:\Mes Cours Ynov\Nouveau dossier\ArchiLog\src\APILibrary.Test\obj\Debug\netcore
 D:\Mes Cours Ynov\Nouveau dossier\ArchiLog\src\APILibrary.Test\obj\Debug\netcoreapp3.1\APILibrary.Test.dll
 D:\Mes Cours Ynov\Nouveau dossier\ArchiLog\src\APILibrary.Test\obj\Debug\netcoreapp3.1\APILibrary.Test.pdb
 D:\Mes Cours Ynov\Nouveau dossier\ArchiLog\src\APILibrary.Test\obj\Debug\netcoreapp3.1\APILibrary.Test.genruntimeconfig.cache
-D:\Mes Cours Ynov\Nouveau dossier\ArchiLog\src\APILibrary.Test\bin\Debug\netcoreapp3.1\IdentityModel.dll
 D:\Mes Cours Ynov\Nouveau dossier\ArchiLog\src\APILibrary.Test\obj\Debug\netcoreapp3.1\APILibrary.Test.csproj.CoreCompileInputs.cache
