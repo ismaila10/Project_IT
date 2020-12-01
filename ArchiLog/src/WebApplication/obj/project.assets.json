@@ -903,6 +903,18 @@
           "build/Swashbuckle.AspNetCore.props": {}
         }
       },
+      "Swashbuckle.AspNetCore.Annotations/5.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Swashbuckle.AspNetCore.SwaggerGen": "5.2.1"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Annotations.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Annotations.dll": {}
+        }
+      },
       "Swashbuckle.AspNetCore.Swagger/5.5.0": {
         "type": "package",
         "dependencies": {
@@ -2010,14 +2022,18 @@
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
           "Microsoft.EntityFrameworkCore": "3.1.9",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.9",
-          "Microsoft.Extensions.Identity.Core": "3.1.9"
+          "Microsoft.Extensions.Identity.Core": "3.1.9",
+          "Swashbuckle.AspNetCore.Annotations": "5.2.1"
         },
         "compile": {
           "bin/placeholder/APILibrary.dll": {}
         },
         "runtime": {
           "bin/placeholder/APILibrary.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -3298,6 +3314,21 @@
         "build/Swashbuckle.AspNetCore.props",
         "swashbuckle.aspnetcore.5.5.0.nupkg.sha512",
         "swashbuckle.aspnetcore.nuspec"
+      ]
+    },
+    "Swashbuckle.AspNetCore.Annotations/5.2.1": {
+      "sha512": "Rz+rWdiVcETsTC/uuBETCAXLcyPMJyJdKDj5HDOkYujnnfH0TaomFySU/MNphXzvzqir5hyMFSA6dQHLosLkJA==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore.annotations/5.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Annotations.dll",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Annotations.xml",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.Annotations.dll",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.Annotations.xml",
+        "swashbuckle.aspnetcore.annotations.5.2.1.nupkg.sha512",
+        "swashbuckle.aspnetcore.annotations.nuspec"
       ]
     },
     "Swashbuckle.AspNetCore.Swagger/5.5.0": {

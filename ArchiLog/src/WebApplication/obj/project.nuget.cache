@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ySETSjnbxfszno/CBk0J4cq7vwmiRy+b3Yojfmqnqm399frl3ez2VvvUTTmRfhxsVLwWICYUstqmRGFEs7jgbw==",
+  "dgSpecHash": "e44JOrIowskyfBuFmk6poxHYynGOZYPV19/WDdowBwND6hi8nO1DQGNeNC7qzOQwoKOH1v32H8OM9hOY11whHA==",
   "success": true,
   "projectFilePath": "D:\\Mes Cours Ynov\\Nouveau dossier\\ArchiLog\\src\\WebApplication\\WebApplication.csproj",
   "expectedPackageFiles": [
@@ -72,6 +72,7 @@
     "C:\\Users\\pc\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\swashbuckle.aspnetcore\\5.5.0\\swashbuckle.aspnetcore.5.5.0.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\swashbuckle.aspnetcore.annotations\\5.2.1\\swashbuckle.aspnetcore.annotations.5.2.1.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.5.0\\swashbuckle.aspnetcore.swagger.5.5.0.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.5.0\\swashbuckle.aspnetcore.swaggergen.5.5.0.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.5.0\\swashbuckle.aspnetcore.swaggerui.5.5.0.nupkg.sha512",

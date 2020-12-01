@@ -139,3 +139,5 @@ D:\Mes Cours Ynov\Nouveau dossier\ArchiLog\src\WebApplication\bin\Debug\netcorea
 D:\Mes Cours Ynov\Nouveau dossier\ArchiLog\src\WebApplication\obj\Debug\netcoreapp3.1\WebApplication.csproj.CoreCompileInputs.cache
 D:\Mes Cours Ynov\Nouveau dossier\ArchiLog\src\WebApplication\obj\Debug\netcoreapp3.1\WebApplication.MvcApplicationPartsAssemblyInfo.cs
 D:\Mes Cours Ynov\Nouveau dossier\ArchiLog\src\WebApplication\obj\Debug\netcoreapp3.1\WebApplication.MvcApplicationPartsAssemblyInfo.cache
+D:\Mes Cours Ynov\Nouveau dossier\ArchiLog\src\WebApplication\bin\Debug\netcoreapp3.1\WebApplication.xml
+D:\Mes Cours Ynov\Nouveau dossier\ArchiLog\src\WebApplication\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Annotations.dll

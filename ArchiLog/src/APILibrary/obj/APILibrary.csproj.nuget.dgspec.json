@@ -63,6 +63,10 @@
             "Microsoft.Extensions.Identity.Core": {
               "target": "Package",
               "version": "[3.1.9, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[5.2.1, )"
             }
           },
           "imports": [
@@ -76,6 +80,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

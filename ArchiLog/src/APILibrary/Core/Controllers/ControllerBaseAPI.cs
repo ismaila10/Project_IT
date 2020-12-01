@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Swashbuckle.AspNetCore.Annotations;
 using System;
 using System.Collections.Generic;
 using System.Dynamic;
@@ -16,7 +17,10 @@ using System.Text;
 using System.Threading.Tasks;
 namespace APILibrary.Core.Controllers
 {
+    [Produces("application/json")]
+    [SwaggerTag("Request about values")]
     [Route("api/[controller]")]
+   
     [ApiController]
     public abstract class ControllerBaseAPI<TModel, TContext> : ControllerBase where TModel : ModelBase where TContext : DbContext
     {
@@ -26,36 +30,44 @@ namespace APILibrary.Core.Controllers
         public ControllerBaseAPI(TContext context)
         {
             this._context = context;
-          
+
         }
 
-
-
-       
-
-        //?fields=email,phone
-
-
-
-        [ProducesResponseType((int)HttpStatusCode.OK)]
+        
         [HttpGet]
-       
+        [SwaggerOperation(Summary = "Gets two values", Description = "Gets two hardcoded values")]
+        [SwaggerResponse(200, "I guess everything worked")]
+        [SwaggerResponse(400, "BAD REQUUUUEST")]
+        
         public virtual async Task<ActionResult<IEnumerable<dynamic>>> GetAllAsync([FromQuery] string fields, [FromQuery] string range,[FromQuery] string sort, [FromQuery] string FilterBy)
         {           
             
             var query = _context.Set<TModel>().AsQueryable();
-            string teste = FilterBy;
-
-
+           
             if (!string.IsNullOrEmpty(FilterBy))
                 query = query.Where(FilterBy);
 
             if (!string.IsNullOrWhiteSpace(sort))
                 query = query.OrderBy(sort);
-            
+
+            if(!string.IsNullOrEmpty(range))
+            {
+                var tab = range.Trim().Split("-");
+                var offset = Int32.Parse(tab[0]);
+                var limit = Int32.Parse(tab[1]);
+                query = query.Skip(offset, limit);
+            }
             
 
-            return Ok(await query.ToArrayAsync());
+            try
+            {
+                return Ok(await query.ToArrayAsync());
+            }
+            catch (Exception e)
+            {
+                return BadRequest(new { e.Message });
+            }
+
 
             // filter
 
@@ -122,6 +134,8 @@ namespace APILibrary.Core.Controllers
         [ProducesResponseType((int)HttpStatusCode.OK)]
         [ProducesResponseType((int)HttpStatusCode.NotFound)]
         [HttpGet("{id}")]
+        /// <param name="id"></param>  
+        /// <param name="fields"></param>  
         public virtual async Task<ActionResult<TModel>> GetById([FromRoute] int id, [FromQuery] string fields)
         {
             var query = _context.Set<TModel>().AsQueryable();
