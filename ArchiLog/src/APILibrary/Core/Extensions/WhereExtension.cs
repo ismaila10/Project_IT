@@ -85,19 +85,58 @@ namespace APILibrary.Core.Extensions
                     }
                 }
 
+            }// End equal case
 
+            var lambda = Expression.Lambda<Func<TModel,bool>>(expression, parameterExpression);
+            return source.Where(lambda);
 
+        }
 
+        // Recherche
+        public static IQueryable<TModel> Search<TModel>(this IQueryable<TModel> source, string search) where TModel : ModelBase
+        {
 
+            var queryExpr = source.Expression;
+            var type = typeof(TModel);
+            var parameterExpression = Expression.Parameter(type, "x");
+            var constant = Expression.Constant("");
+            var property = Expression.Property(parameterExpression, "lastname");
+            var expression = Expression.Equal(property, constant);
 
+            string test = search;
+
+            //http://xxxxx/catalog/v1/products/search?name=*napoli*&type=pizza,pate&sort=rating,name
+            //search = "Firstname=iso,jean&email&firstname";
+            var SearchValues = search.Trim().Split('&').Select(x => x.Trim()).ToList();
+            
+            // equal Case
+
+            foreach (var SearchProperty in SearchValues)
+            {
+
+                var Tosplit = SearchProperty.Split("=");
+                if (Tosplit.Length <= 1)
+                    continue;
+
+                var propertyToincludeInSearch = Tosplit[0];//property to Filter
+                string fieldsToSearch = Tosplit[1];//table of properties
+
+                //case equal
+                foreach (var item in fieldsToSearch.Split(","))
+                {
+                    if (string.IsNullOrEmpty(item))
+                        continue;
+
+                    constant = Expression.Constant(item);
+                    var property2 = Expression.Property(parameterExpression, propertyToincludeInSearch);
+                    var expression2 = Expression.Equal(property2, constant);
+                    expression = Expression.Or(expression, expression2);
+                }
+                
 
             }// End equal case
 
-
-
-
-            
-            var lambda = Expression.Lambda<Func<TModel,bool>>(expression, parameterExpression);
+            var lambda = Expression.Lambda<Func<TModel, bool>>(expression, parameterExpression);
             return source.Where(lambda);
 
         }
