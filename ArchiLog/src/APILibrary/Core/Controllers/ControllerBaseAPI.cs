@@ -11,6 +11,7 @@ using System.Net;
 using System.Reflection;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
+using APILibrary.Core.Pagination;
 
 namespace APILibrary.Core.Controllers
 {
@@ -36,7 +37,7 @@ namespace APILibrary.Core.Controllers
         /// </summary>
         [HttpGet]
         [ProducesResponseType((int)HttpStatusCode.OK)]
-        //[Authorize]
+        [Authorize]
         
         public virtual async Task<ActionResult<IEnumerable<dynamic>>> GetAllAsync([FromQuery] string fields, [FromQuery] string range,[FromQuery] string sort, [FromQuery] string FilterBy)
         {           
@@ -57,9 +58,10 @@ namespace APILibrary.Core.Controllers
                 query = query.Skip(offset, limit);
             }
             
-
+            
             try
             {
+
                 return Ok(await query.ToArrayAsync());
             }
             catch (Exception e)
@@ -67,66 +69,7 @@ namespace APILibrary.Core.Controllers
                 return BadRequest(new { e.Message });
             }
 
-
-            // filter
-
-
-
-            /*
-            if (!string.IsNullOrWhiteSpace(range))
-            {
-
-                var Tabrange = range.Split("-");
-
-                //if (Tabrange.Length == 2 && (Int16.Parse(Tabrange[0]) < Int16.Parse(Tabrange[1])))
-                //{
-                    var Collection = ToJsonList(await query.Skip(1,6).ToListAsync());
-                    var PaginationResult = new PageResponse<IEnumerable<dynamic>>(Collection, query.Count(), Request);
-                var metadata = new
-                {
-                    PaginationResult.rel_First,
-                    PaginationResult.rel_Last,
-                 
-                };
-
-
-                    return Ok(PaginationResult);
-                //}
-                //else
-                //{
-                  //  return NotFound(new { Message = $"range {range} Parameter Error" });
-               // }
-            }
-
-            */
-
-
-            return null;
-
-
-
-
-
         }
-
-
-
-
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
