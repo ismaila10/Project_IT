@@ -1,0 +1,35 @@
+Projet Architecture logiciel
+Nom du groupe: Projet_IT
+Membres du groupe et responsabilités:
+
+ DIALLO Ismaila
+ 
+	- CI/CD
+	- Hébergement
+	- Recherche
+	- Tests unitaires
+	
+ TEGUIA Polla Joël
+ 
+	- Pagination
+	- Tris
+	- Filtres
+	- Authentification
+	- Web API
+ 
+ THIAM Babacar
+
+ 
+ 
+ Ressources utilisées:
+ 
+ Authentification
+> https://dvoituron.com/fr/2017/12/19/how-to-create-a-webapi-authenticated-by-jwt-2/
+> SwaggerUI
+- https://docs.microsoft.com/fr-fr/aspnet/core/tutorials/getting-started-with-swashbuckle?view=aspnetcore-5.0&tabs=visual-studio
+> Filtres
+--https://www.codemag.com/article/1607041/Simplest-Thing-Possible-Dynamic-Lambda-Expressions
+ 
+ 
+
+
