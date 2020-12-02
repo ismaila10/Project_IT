@@ -669,6 +669,18 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+      "Swashbuckle.AspNetCore.SwaggerUI/5.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "System.AppContext/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -2345,6 +2357,23 @@
         "lib/netstandard1.0/_._",
         "runtime.native.system.4.3.0.nupkg.sha512",
         "runtime.native.system.nuspec"
+      ]
+    },
+    "Swashbuckle.AspNetCore.SwaggerUI/5.6.3": {
+      "sha512": "BPvcPxQRMsYZ3HnYmGKRWDwX4Wo29WHh14Q6B10BB8Yfbbcza+agOC2UrBFA1EuaZuOsFLbp6E2+mqVNF/Je8A==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore.swaggerui/5.6.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
+        "swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
+        "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
     "System.AppContext/4.1.0": {
@@ -4690,6 +4719,7 @@
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.9",
       "Microsoft.NET.Test.Sdk >= 16.4.0",
       "NUnit3TestAdapter >= 3.15.1",
+      "Swashbuckle.AspNetCore.SwaggerUI >= 5.6.3",
       "nunit >= 3.12.0"
     ]
   },
@@ -4699,11 +4729,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary.Test/APILibrary.Test.csproj",
+      "projectUniqueName": "/Users/ismailadiallo/Desktop/YNOV/NewProjectExam/Project_IT/ArchiLog/src/APILibrary.Test/APILibrary.Test.csproj",
       "projectName": "APILibrary.Test",
-      "projectPath": "/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary.Test/APILibrary.Test.csproj",
+      "projectPath": "/Users/ismailadiallo/Desktop/YNOV/NewProjectExam/Project_IT/ArchiLog/src/APILibrary.Test/APILibrary.Test.csproj",
       "packagesPath": "/Users/ismailadiallo/.nuget/packages/",
-      "outputPath": "/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary.Test/obj/",
+      "outputPath": "/Users/ismailadiallo/Desktop/YNOV/NewProjectExam/Project_IT/ArchiLog/src/APILibrary.Test/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/ismailadiallo/.config/NuGet/NuGet.Config"
@@ -4751,6 +4781,10 @@
           "NUnit3TestAdapter": {
             "target": "Package",
             "version": "[3.15.1, )"
+          },
+          "Swashbuckle.AspNetCore.SwaggerUI": {
+            "target": "Package",
+            "version": "[5.6.3, )"
           },
           "nunit": {
             "target": "Package",

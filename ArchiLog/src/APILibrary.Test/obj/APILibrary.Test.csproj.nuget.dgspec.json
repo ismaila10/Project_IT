@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary.Test/APILibrary.Test.csproj": {}
+    "/Users/ismailadiallo/Desktop/YNOV/NewProjectExam/Project_IT/ArchiLog/src/APILibrary.Test/APILibrary.Test.csproj": {}
   },
   "projects": {
-    "/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary.Test/APILibrary.Test.csproj": {
+    "/Users/ismailadiallo/Desktop/YNOV/NewProjectExam/Project_IT/ArchiLog/src/APILibrary.Test/APILibrary.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary.Test/APILibrary.Test.csproj",
+        "projectUniqueName": "/Users/ismailadiallo/Desktop/YNOV/NewProjectExam/Project_IT/ArchiLog/src/APILibrary.Test/APILibrary.Test.csproj",
         "projectName": "APILibrary.Test",
-        "projectPath": "/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary.Test/APILibrary.Test.csproj",
+        "projectPath": "/Users/ismailadiallo/Desktop/YNOV/NewProjectExam/Project_IT/ArchiLog/src/APILibrary.Test/APILibrary.Test.csproj",
         "packagesPath": "/Users/ismailadiallo/.nuget/packages/",
-        "outputPath": "/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary.Test/obj/",
+        "outputPath": "/Users/ismailadiallo/Desktop/YNOV/NewProjectExam/Project_IT/ArchiLog/src/APILibrary.Test/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ismailadiallo/.config/NuGet/NuGet.Config"
@@ -59,6 +59,10 @@
             "NUnit3TestAdapter": {
               "target": "Package",
               "version": "[3.15.1, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[5.6.3, )"
             },
             "nunit": {
               "target": "Package",

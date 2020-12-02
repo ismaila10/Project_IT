@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/WebApplication.csproj": {}
+    "/Users/ismailadiallo/Desktop/YNOV/NewProjectExam/Project_IT/ArchiLog/src/WebApplication/WebApplication.csproj": {}
   },
   "projects": {
-    "/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary/APILibrary.csproj": {
+    "/Users/ismailadiallo/Desktop/YNOV/NewProjectExam/Project_IT/ArchiLog/src/APILibrary/APILibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary/APILibrary.csproj",
+        "projectUniqueName": "/Users/ismailadiallo/Desktop/YNOV/NewProjectExam/Project_IT/ArchiLog/src/APILibrary/APILibrary.csproj",
         "projectName": "APILibrary",
-        "projectPath": "/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary/APILibrary.csproj",
+        "projectPath": "/Users/ismailadiallo/Desktop/YNOV/NewProjectExam/Project_IT/ArchiLog/src/APILibrary/APILibrary.csproj",
         "packagesPath": "/Users/ismailadiallo/.nuget/packages/",
-        "outputPath": "/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary/obj/",
+        "outputPath": "/Users/ismailadiallo/Desktop/YNOV/NewProjectExam/Project_IT/ArchiLog/src/APILibrary/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ismailadiallo/.config/NuGet/NuGet.Config"
@@ -84,14 +84,14 @@
         }
       }
     },
-    "/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/WebApplication.csproj": {
+    "/Users/ismailadiallo/Desktop/YNOV/NewProjectExam/Project_IT/ArchiLog/src/WebApplication/WebApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/WebApplication.csproj",
+        "projectUniqueName": "/Users/ismailadiallo/Desktop/YNOV/NewProjectExam/Project_IT/ArchiLog/src/WebApplication/WebApplication.csproj",
         "projectName": "WebApplication",
-        "projectPath": "/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/WebApplication.csproj",
+        "projectPath": "/Users/ismailadiallo/Desktop/YNOV/NewProjectExam/Project_IT/ArchiLog/src/WebApplication/WebApplication.csproj",
         "packagesPath": "/Users/ismailadiallo/.nuget/packages/",
-        "outputPath": "/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/obj/",
+        "outputPath": "/Users/ismailadiallo/Desktop/YNOV/NewProjectExam/Project_IT/ArchiLog/src/WebApplication/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ismailadiallo/.config/NuGet/NuGet.Config"
@@ -106,8 +106,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary/APILibrary.csproj": {
-                "projectPath": "/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary/APILibrary.csproj"
+              "/Users/ismailadiallo/Desktop/YNOV/NewProjectExam/Project_IT/ArchiLog/src/APILibrary/APILibrary.csproj": {
+                "projectPath": "/Users/ismailadiallo/Desktop/YNOV/NewProjectExam/Project_IT/ArchiLog/src/APILibrary/APILibrary.csproj"
               }
             }
           }
@@ -147,6 +147,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[5.6.3, )"
             }
           },
           "imports": [

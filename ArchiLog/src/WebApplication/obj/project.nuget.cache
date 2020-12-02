@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "68m3iiodSYfZtLgZROpU14OVRBoHm0uBCv+Ssc7T3AjWXaYt0N7BRRDuSEVmqJBi0pgX9/vyBAxz46QP7Jj0Jw==",
+  "dgSpecHash": "nfSNKZ0r0EGJM0JjH/VxAtsr0wcqFo3MyTEJxCZw1OQh5F2ZOz7BlJ9d7Ns8afkmbPBxyINItZFdKQaHU5AzIw==",
   "success": true,
-  "projectFilePath": "/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/WebApplication/WebApplication.csproj",
+  "projectFilePath": "/Users/ismailadiallo/Desktop/YNOV/NewProjectExam/Project_IT/ArchiLog/src/WebApplication/WebApplication.csproj",
   "expectedPackageFiles": [
     "/Users/ismailadiallo/.nuget/packages/microsoft.aspnetcore.authentication.abstractions/2.2.0/microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "/Users/ismailadiallo/.nuget/packages/microsoft.aspnetcore.authentication.core/2.2.0/microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
@@ -74,7 +74,7 @@
     "/Users/ismailadiallo/.nuget/packages/swashbuckle.aspnetcore/5.5.0/swashbuckle.aspnetcore.5.5.0.nupkg.sha512",
     "/Users/ismailadiallo/.nuget/packages/swashbuckle.aspnetcore.swagger/5.5.0/swashbuckle.aspnetcore.swagger.5.5.0.nupkg.sha512",
     "/Users/ismailadiallo/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.5.0/swashbuckle.aspnetcore.swaggergen.5.5.0.nupkg.sha512",
-    "/Users/ismailadiallo/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.5.0/swashbuckle.aspnetcore.swaggerui.5.5.0.nupkg.sha512",
+    "/Users/ismailadiallo/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
     "/Users/ismailadiallo/.nuget/packages/system.appcontext/4.1.0/system.appcontext.4.1.0.nupkg.sha512",
     "/Users/ismailadiallo/.nuget/packages/system.buffers/4.5.0/system.buffers.4.5.0.nupkg.sha512",
     "/Users/ismailadiallo/.nuget/packages/system.collections/4.3.0/system.collections.4.3.0.nupkg.sha512",

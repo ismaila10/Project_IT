@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary/APILibrary.csproj": {}
+    "/Users/ismailadiallo/Desktop/YNOV/NewProjectExam/Project_IT/ArchiLog/src/APILibrary/APILibrary.csproj": {}
   },
   "projects": {
-    "/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary/APILibrary.csproj": {
+    "/Users/ismailadiallo/Desktop/YNOV/NewProjectExam/Project_IT/ArchiLog/src/APILibrary/APILibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary/APILibrary.csproj",
+        "projectUniqueName": "/Users/ismailadiallo/Desktop/YNOV/NewProjectExam/Project_IT/ArchiLog/src/APILibrary/APILibrary.csproj",
         "projectName": "APILibrary",
-        "projectPath": "/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary/APILibrary.csproj",
+        "projectPath": "/Users/ismailadiallo/Desktop/YNOV/NewProjectExam/Project_IT/ArchiLog/src/APILibrary/APILibrary.csproj",
         "packagesPath": "/Users/ismailadiallo/.nuget/packages/",
-        "outputPath": "/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary/obj/",
+        "outputPath": "/Users/ismailadiallo/Desktop/YNOV/NewProjectExam/Project_IT/ArchiLog/src/APILibrary/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ismailadiallo/.config/NuGet/NuGet.Config"

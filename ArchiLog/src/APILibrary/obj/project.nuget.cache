@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XT4PLsn0XsPsyDuoP4PiwD6kk3qe2myDFWWiAnRfn5MdvZ4pAxR+kVnU2Yz9B09jKPNLMg4HM/T91whE/GOlvg==",
+  "dgSpecHash": "vDLnKW9h8/eQk2xakbiY0iVxVmHdr5egrzwXHn4FE3Vg3TTOtJtmWtsWsEKWEFuy8zjqbkKUZXtkvjhMbC/z+w==",
   "success": true,
-  "projectFilePath": "/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary/APILibrary.csproj",
+  "projectFilePath": "/Users/ismailadiallo/Desktop/YNOV/NewProjectExam/Project_IT/ArchiLog/src/APILibrary/APILibrary.csproj",
   "expectedPackageFiles": [
     "/Users/ismailadiallo/.nuget/packages/microsoft.aspnetcore.authentication.abstractions/2.2.0/microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "/Users/ismailadiallo/.nuget/packages/microsoft.aspnetcore.authentication.core/2.2.0/microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
