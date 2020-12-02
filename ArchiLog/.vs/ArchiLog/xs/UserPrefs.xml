@@ -1,12 +1,12 @@
 ﻿<Properties StartupConfiguration="{8A61986B-8AE5-4F02-B714-B2D9AEA5ACC6}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/WebApplication/Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/APILibrary.Test/obj/Debug/netcoreapp3.1/APILibrary.Test.AssemblyInfo.cs">
     <Files>
-      <File FileName="src/APILibrary/Core/Extensions/WhereExtension.cs" Line="1" Column="1" />
-      <File FileName="src/APILibrary/Core/Controllers/ControllerBaseAPI.cs" Line="72" Column="57" />
-      <File FileName="src/APILibrary/Core/Extensions/IQueryableExtensions.cs" Line="1" Column="1" />
-      <File FileName="src/WebApplication/appsettings.json" Line="19" Column="4" />
-      <File FileName="src/APILibrary/Core/Extensions/OrderbyExtension.cs" Line="1" Column="1" />
-      <File FileName="src/WebApplication/Controllers/AuthentificateController.cs" Line="1" Column="1" />
+      <File FileName="src/APILibrary/Core/Extensions/WhereExtension.cs" Line="3" Column="14" />
+      <File FileName="src/APILibrary/Core/Controllers/ControllerBaseAPI.cs" />
+      <File FileName="src/APILibrary/Core/Extensions/IQueryableExtensions.cs" />
+      <File FileName="src/WebApplication/appsettings.json" />
+      <File FileName="src/APILibrary/Core/Extensions/OrderbyExtension.cs" />
+      <File FileName="src/WebApplication/Controllers/AuthentificateController.cs" />
       <File FileName="src/WebApplication/Controllers/CustomersController.cs" />
       <File FileName="src/WebApplication/obj/WebApplication.csproj.nuget.g.props" />
       <File FileName="../../../../../../../usr/local/share/dotnet/sdk/5.0.100/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets" />
@@ -14,18 +14,19 @@
       <File FileName="src/WebApplication/appsettings.Development.json" />
       <File FileName="src/WebApplication/Dockerfile" />
       <File FileName="src/WebApplication/Program.cs" />
-      <File FileName="src/WebApplication/Startup.cs" Line="52" Column="51" />
+      <File FileName="src/WebApplication/Startup.cs" />
       <File FileName="src/WebApplication/WebApplication.csproj" />
-      <File FileName="src/APILibrary/Core/Extensions/SkipExtensions.cs" Line="1" Column="1" />
-      <File FileName="src/APILibrary/Core/Attributes/NotJsonAttribute.cs" Line="1" Column="1" />
-      <File FileName="src/APILibrary/Core/Models/ModelBase.cs" Line="1" Column="1" />
-      <File FileName="src/APILibrary/Core/Models/Role.cs" Line="1" Column="1" />
-      <File FileName="src/APILibrary/Core/Models/User.cs" Line="1" Column="1" />
-      <File FileName="src/APILibrary/Core/Models/UserModel.cs" Line="1" Column="1" />
-      <File FileName="src/APILibrary/Core/Pagination/PageResponse.cs" Line="1" Column="1" />
-      <File FileName="src/APILibrary/Options/SwaggerOptions.cs" Line="6" Column="2" />
-      <File FileName="src/APILibrary.Test/UnitTest1.cs" Line="1" Column="1" />
-      <File FileName="src/WebApplication/WebApplication.xml" Line="1" Column="1" />
+      <File FileName="src/APILibrary/Core/Extensions/SkipExtensions.cs" />
+      <File FileName="src/APILibrary/Core/Attributes/NotJsonAttribute.cs" />
+      <File FileName="src/APILibrary/Core/Models/ModelBase.cs" />
+      <File FileName="src/APILibrary/Core/Models/Role.cs" />
+      <File FileName="src/APILibrary/Core/Models/User.cs" />
+      <File FileName="src/APILibrary/Core/Models/UserModel.cs" />
+      <File FileName="src/APILibrary/Core/Pagination/PageResponse.cs" />
+      <File FileName="src/APILibrary/Options/SwaggerOptions.cs" />
+      <File FileName="src/APILibrary.Test/UnitTest1.cs" />
+      <File FileName="src/WebApplication/WebApplication.xml" />
+      <File FileName="src/APILibrary.Test/obj/Debug/netcoreapp3.1/APILibrary.Test.AssemblyInfo.cs" Line="14" Column="44" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -33,19 +34,8 @@
           <Node name="ArchiLog" expanded="True">
             <Node name="src" expanded="True">
               <Node name="APILibrary" expanded="True">
-                <Node name="Core" expanded="True">
-                  <Node name="Attributes" expanded="True" />
-                  <Node name="Controllers" expanded="True" />
-                  <Node name="Extensions" expanded="True" />
-                  <Node name="Models" expanded="True" />
-                  <Node name="Pagination" expanded="True" />
-                </Node>
-                <Node name="Options" expanded="True" />
-              </Node>
-              <Node name="APILibrary.Test" expanded="True" />
-              <Node name="WebApplication" expanded="True">
-                <Node name="Controllers" expanded="True" />
-                <Node name="Startup.cs" selected="True" />
+                <Node name="Dependencies" selected="True" />
+                <Node name="Core" expanded="True" />
               </Node>
             </Node>
           </Node>
