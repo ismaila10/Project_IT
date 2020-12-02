@@ -32,14 +32,17 @@ namespace APILibrary.Core.Controllers
 
         [HttpGet]
         [ProducesResponseType((int)HttpStatusCode.OK)]
-        [Authorize]
+        //[Authorize]
         
-        public virtual async Task<ActionResult<IEnumerable<dynamic>>> GetAllAsync([FromQuery] string range,[FromQuery] string sort, [FromQuery] string FilterBy)
+        public virtual async Task<ActionResult<IEnumerable<dynamic>>> GetAllAsync([FromQuery] string range,[FromQuery] string sort, [FromQuery] string FilterBy, [FromQuery] string search)
         {           
             
             var query = _context.Set<TModel>().AsQueryable();
             if (!string.IsNullOrEmpty(FilterBy))
                 query = query.Where(FilterBy);
+
+            if (!string.IsNullOrEmpty(search))
+                query = query.Search(search);
 
             if (!string.IsNullOrWhiteSpace(sort))
                 query = query.OrderBy(sort);
