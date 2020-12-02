@@ -66,26 +66,5 @@ namespace APILibrary.Core.Extensions
             return query.Select(lambda);
         }
 
-
-
-        public static IQueryable<TModel>PaginationModel<TModel>(this IQueryable<TModel> query,int starIndex, int Endindex) where TModel : ModelBase
-        {
-            int Star = starIndex-1;
-            if (Star< 0)
-                Star= 0;
-
-            if (Endindex > query.Count())
-                Endindex = query.Count();
-
-            return query.Skip(Star).Take(Endindex-starIndex+1);
-        }
-
-
-        
-
-
-
-
-
     }
 }

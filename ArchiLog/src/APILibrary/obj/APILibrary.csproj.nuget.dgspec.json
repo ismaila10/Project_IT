@@ -38,11 +38,15 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "AutoMapper": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[10.1.1, )"
+              "version": "[3.1.9, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
               "version": "[3.1.9, )"
             },
@@ -68,17 +72,9 @@
               "target": "Package",
               "version": "[3.1.9, )"
             },
-            "Microsoft.Extensions.Identity.Stores": {
+            "Swashbuckle.AspNetCore.Annotations": {
               "target": "Package",
-              "version": "[3.1.9, )"
-            },
-            "Microsoft.IdentityModel.Protocols.OpenIdConnect": {
-              "target": "Package",
-              "version": "[6.8.0, )"
-            },
-            "OpenIddict.Core": {
-              "target": "Package",
-              "version": "[2.0.1, )"
+              "version": "[5.2.1, )"
             }
           },
           "imports": [
@@ -92,6 +88,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
