@@ -29,17 +29,11 @@ namespace APILibrary.Core.Controllers
         }
 
 
-
-
-        /// <summary>DoWork is a method in the TestClass class.
-        /// <para>Here's how you could make a second paragraph in a description. <see cref="System.Console.WriteLine(System.String)"/> for information about output statements.</para>
-        /// <seealso cref="TestClass.Main"/>
-        /// </summary>
         [HttpGet]
         [ProducesResponseType((int)HttpStatusCode.OK)]
         [Authorize]
         
-        public virtual async Task<ActionResult<IEnumerable<dynamic>>> GetAllAsync([FromQuery] string fields, [FromQuery] string range,[FromQuery] string sort, [FromQuery] string FilterBy)
+        public virtual async Task<ActionResult<IEnumerable<dynamic>>> GetAllAsync([FromQuery] string range,[FromQuery] string sort, [FromQuery] string FilterBy)
         {           
             
             var query = _context.Set<TModel>().AsQueryable();

@@ -20,6 +20,24 @@ Membres du groupe et responsabilités:
  THIAM Babacar
 
  
+ Données Pour le teste des Fonctions
+ 
+ Lancer le projet sur un navigateur à l'adresse: http://localhost:5000/swagger/index.html
+ 
+> Fonction de pagination
+paramètes sous la forme
+range = offset limit
+ > Fonction de trie sort
+ paramètre sous la forme
+ email=DESC&Lastname=DESC
+ >Fonction de Filtres FilterBy
+ Paramètres sous la forme
+ 
+ 
+ 
+ 
+ 
+ 
  
  Ressources utilisées:
  

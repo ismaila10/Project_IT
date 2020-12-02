@@ -33,9 +33,9 @@ namespace WebApplication.Controllers
 
 
         [AllowAnonymous]
-        [Route("Login")]
+        [Route("Create")]
         [HttpPost]
-        public async Task<IActionResult> AuthenticateUser(UserModel userI)
+        public async Task<IActionResult> AuthenticateUser([FromBody]UserModel userI)
         {
 
             var resultat = await this.Usermanager.CreateAsync(
