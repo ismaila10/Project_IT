@@ -54,21 +54,37 @@ namespace WebApplication
                     Title = "Groupe ProjetIT API",
                     Description = "A simple CRUD (Create, Read, Update, Delete) ASP.NET Core Web API",
                     TermsOfService = new Uri("https://example.com/terms"),
-                    Contact = new OpenApiContact
+                    });
+
+                // Pour activer l'autorisation swagger sur(JWT)
+                c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+                {
+                    In = ParameterLocation.Header,
+                    Description = "Please insert JWT with Bearer into field",
+                    Name = "Authorization",
+                    BearerFormat = "JWT",
+                    Type = SecuritySchemeType.ApiKey
+                });
+
+                c.AddSecurityRequirement(new OpenApiSecurityRequirement
+                {
                     {
-                        Name = "Shayne",
-                        Email = string.Empty,
-                        Url = new Uri("https://twitter.com/spboyer"),
-                    },
-                    License = new OpenApiLicense
-                    {
-                        Name = "Use under LICX",
-                        Url = new Uri("https://example.com/license"),
+                          new OpenApiSecurityScheme
+                            {
+                                Reference = new OpenApiReference
+                                {
+                                    Type = ReferenceType.SecurityScheme,
+                                    Id = "Bearer"
+                                }
+                            },
+                            new string[] {}
+
                     }
                 });
 
-                 // Set the comments path for the Swagger JSON and UI.
-                    var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+
+                // Set the comments path for the Swagger JSON and UI.
+                var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
                     var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
                     c.IncludeXmlComments(xmlPath);
             }
@@ -81,7 +97,8 @@ namespace WebApplication
             /*Configuration des jetons JWT pour protéger nos Apis*/
             /*Installer Microsoft.AspNetCoreAuthentification*/
            
-            services.AddAuthentication(options=>{ options.DefaultAuthenticateScheme = "JwtBearer";
+            services.AddAuthentication(options=>{ 
+                options.DefaultAuthenticateScheme = "JwtBearer";
                 options.DefaultChallengeScheme = "JwtBearer";
             })
               .AddJwtBearer("JwtBearer", options =>

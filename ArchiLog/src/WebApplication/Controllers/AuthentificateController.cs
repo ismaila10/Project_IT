@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using APILibrary.Core.IdentityUserModel;
 using APILibrary.Core.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
@@ -15,7 +16,7 @@ using WebApplication.Data;
 namespace WebApplication.Controllers
 {
     [Route("api/[controller]")]
-    public class ApiTokenController : ControllerBase
+    public class AuthentificateController : ControllerBase
     {
 
         private readonly UserManager<User> Usermanager;
@@ -23,16 +24,18 @@ namespace WebApplication.Controllers
         private readonly RoleManager<Role> Rolemanager;
 
         
-        public ApiTokenController(UserManager<User> Usermanager, SignInManager<User> signInManager, RoleManager<Role> Rolemanager)
+        public AuthentificateController(UserManager<User> Usermanager, SignInManager<User> signInManager, RoleManager<Role> Rolemanager)
         {
             this.Usermanager = Usermanager;
             this.signInManager = signInManager;
             this.Rolemanager = Rolemanager;
         }
 
-        
+
+        [AllowAnonymous]
+        [Route("Login")]
         [HttpPost]
-        public async Task<IActionResult> Create(UserModel userI)
+        public async Task<IActionResult> AuthenticateUser(UserModel userI)
         {
 
             var resultat = await this.Usermanager.CreateAsync(
@@ -52,8 +55,11 @@ namespace WebApplication.Controllers
 
        
         [HttpGet]
-        public async Task<IActionResult> Login([FromBody] UserModel userI)
+        [Route("Get")]
+        public async Task<IActionResult> Login(UserModel userI)
         {
+
+            IActionResult response = Unauthorized();
             var result = await this.signInManager.PasswordSignInAsync(
                 userI.Email,
                 userI.Password,
@@ -66,10 +72,11 @@ namespace WebApplication.Controllers
 
             if (result.Succeeded)
             {
-                return Ok( this.GenerateToken(userI.Email));
+                var tokenString = this.GenerateToken(userI.Email);
+                response = Ok(new { Token = tokenString, Message = "Success" });
             }
 
-            return BadRequest();
+            return response;
         }
 
 

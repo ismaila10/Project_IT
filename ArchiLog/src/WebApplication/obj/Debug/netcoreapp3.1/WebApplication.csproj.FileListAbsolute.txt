@@ -136,9 +136,6 @@ D:\Mes Cours Ynov\Nouveau dossier\ArchiLog\src\WebApplication\bin\Debug\netcorea
 D:\Mes Cours Ynov\Nouveau dossier\ArchiLog\src\WebApplication\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 D:\Mes Cours Ynov\Nouveau dossier\ArchiLog\src\WebApplication\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
 D:\Mes Cours Ynov\Nouveau dossier\ArchiLog\src\WebApplication\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
-D:\Mes Cours Ynov\Nouveau dossier\ArchiLog\src\WebApplication\obj\Debug\netcoreapp3.1\WebApplication.csproj.CoreCompileInputs.cache
-D:\Mes Cours Ynov\Nouveau dossier\ArchiLog\src\WebApplication\obj\Debug\netcoreapp3.1\WebApplication.MvcApplicationPartsAssemblyInfo.cs
-D:\Mes Cours Ynov\Nouveau dossier\ArchiLog\src\WebApplication\obj\Debug\netcoreapp3.1\WebApplication.MvcApplicationPartsAssemblyInfo.cache
 D:\Mes Cours Ynov\Nouveau dossier\ArchiLog\src\WebApplication\bin\Debug\netcoreapp3.1\WebApplication.xml
 D:\Mes Cours Ynov\Nouveau dossier\ArchiLog\src\WebApplication\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Annotations.dll
 D:\Mes Cours Ynov\Nouveau dossier\ArchiLog\src\WebApplication\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
@@ -148,3 +145,6 @@ D:\Mes Cours Ynov\Nouveau dossier\ArchiLog\src\WebApplication\bin\Debug\netcorea
 D:\Mes Cours Ynov\Nouveau dossier\ArchiLog\src\WebApplication\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
 D:\Mes Cours Ynov\Nouveau dossier\ArchiLog\src\WebApplication\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
 D:\Mes Cours Ynov\Nouveau dossier\ArchiLog\src\WebApplication\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\Mes Cours Ynov\Nouveau dossier\ArchiLog\src\WebApplication\obj\Debug\netcoreapp3.1\WebApplication.csproj.CoreCompileInputs.cache
+D:\Mes Cours Ynov\Nouveau dossier\ArchiLog\src\WebApplication\obj\Debug\netcoreapp3.1\WebApplication.MvcApplicationPartsAssemblyInfo.cs
+D:\Mes Cours Ynov\Nouveau dossier\ArchiLog\src\WebApplication\obj\Debug\netcoreapp3.1\WebApplication.MvcApplicationPartsAssemblyInfo.cache
