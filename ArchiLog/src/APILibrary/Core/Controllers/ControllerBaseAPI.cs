@@ -1,9 +1,6 @@
 ﻿using APILibrary.Core.Attributes;
 using APILibrary.Core.Extensions;
 using APILibrary.Core.Models;
-using APILibrary.Core.Pagination;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -13,84 +10,68 @@ using System.Linq;
 using System.Net;
 using System.Reflection;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
+using APILibrary.Core.Pagination;
 
 namespace APILibrary.Core.Controllers
 {
+    [Produces("application/json")]
     [Route("api/[controller]")]
     [ApiController]
+    
     public abstract class ControllerBaseAPI<TModel, TContext> : ControllerBase where TModel : ModelBase where TContext : DbContext
     {
         protected readonly TContext _context;
-        //private readonly SignInManager<UserT> signInManager;
-
-
         public ControllerBaseAPI(TContext context)
         {
             this._context = context;
+
         }
 
-        //?fields=email,phone
 
-
-
-        [ProducesResponseType((int)HttpStatusCode.OK)]
         [HttpGet]
-       
-        public virtual async Task<ActionResult<IEnumerable<dynamic>>> GetAllAsync([FromQuery] string fields, [FromQuery] string range,[FromQuery] string sort, [FromQuery] string FilterBy)
-        { 
+        [ProducesResponseType((int)HttpStatusCode.OK)]
+        [Authorize]
+        
+        public virtual async Task<ActionResult<IEnumerable<dynamic>>> GetAllAsync([FromQuery] string range,[FromQuery] string sort, [FromQuery] string FilterBy)
+        {           
+            
             var query = _context.Set<TModel>().AsQueryable();
-            string teste = FilterBy;
-
+           
             if (!string.IsNullOrEmpty(FilterBy))
                 query = query.Where(FilterBy);
 
             if (!string.IsNullOrWhiteSpace(sort))
                 query = query.OrderBy(sort);
+
+            if(!string.IsNullOrEmpty(range))
+            {
+                var tab = range.Trim().Split("-");
+                var offset = Int32.Parse(tab[0]);
+                var limit = Int32.Parse(tab[1]);
+                query = query.Skip(offset, limit);
+            }
             
             
-
-            return Ok(await query.ToArrayAsync());
-
-            // filter
-
-
-
-            /*
-            if (!string.IsNullOrWhiteSpace(range))
+            try
             {
 
-                var Tabrange = range.Split("-");
-
-                //if (Tabrange.Length == 2 && (Int16.Parse(Tabrange[0]) < Int16.Parse(Tabrange[1])))
-                //{
-                    var Collection = ToJsonList(await query.Skip(1,6).ToListAsync());
-                    var PaginationResult = new PageResponse<IEnumerable<dynamic>>(Collection, query.Count(), Request);
-                var metadata = new
-                {
-                    PaginationResult.rel_First,
-                    PaginationResult.rel_Last,
-                 
-                };
-
-
-                    return Ok(PaginationResult);
-                //}
-                //else
-                //{
-                  //  return NotFound(new { Message = $"range {range} Parameter Error" });
-               // }
+                return Ok(await query.ToArrayAsync());
+            }
+            catch (Exception e)
+            {
+                return BadRequest(new { e.Message });
             }
 
-            */
-
-
-            return null;
-
         }
+
+
 
         [ProducesResponseType((int)HttpStatusCode.OK)]
         [ProducesResponseType((int)HttpStatusCode.NotFound)]
         [HttpGet("{id}")]
+        /// <param name="id"></param>  
+        /// <param name="fields"></param>  
         public virtual async Task<ActionResult<TModel>> GetById([FromRoute] int id, [FromQuery] string fields)
         {
             var query = _context.Set<TModel>().AsQueryable();
@@ -117,7 +98,7 @@ namespace APILibrary.Core.Controllers
                 var result = query.SingleOrDefault(x => x.ID == id);
                 if (result != null)
                 {
-
+                    
                     return Ok(ToJson(result));
                 }
                 else

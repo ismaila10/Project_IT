@@ -12,12 +12,16 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using WebApplication.Data;
+using APILibrary.Options;
 using Microsoft.OpenApi.Models;
+using APILibrary.Core.IdentityUserModel;
 using APILibrary.Core.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-using APILibrary.Options;
+using System.Reflection;
+using System.IO;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 namespace WebApplication
 {
@@ -27,7 +31,7 @@ namespace WebApplication
         {
             Configuration = configuration;
         }
-        //hjsbhjbjb
+
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
@@ -37,42 +41,67 @@ namespace WebApplication
           
 
             services.AddControllers();
-
-            //ajout de la d?p. EatDbContext. Configuration avec le type de bdd et chaine de connexion
+            //ajout de la dép. EatDbContext. Configuration avec le type de bdd et chaine de connexion
             services.AddDbContext<EatDbContext>(db =>
                     db.UseLoggerFactory(EatDbContext.SqlLogger)
                     .UseSqlServer(Configuration.GetConnectionString("EatConnectionString"))
             );
 
-            services.AddSwaggerGen(c=>
-                 c.SwaggerDoc("v1", new OpenApiInfo
-                 {
-                     Version = "v1",
-                     Title = "ToDo API",
-                     Description = "A simple example ASP.NET Core Web API",
-                     TermsOfService = new Uri("https://example.com/terms"),
-                     Contact = new OpenApiContact
-                     {
-                         Name = "Shayne Boyer",
-                         Email = string.Empty,
-                         Url = new Uri("https://twitter.com/spboyer"),
-                     },
-                     License = new OpenApiLicense
-                     {
-                         Name = "Use under LICX",
-                         Url = new Uri("https://example.com/license"),
-                     }
-                 })
-                
+            services.AddSwaggerGen(c => {
+                c.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Version = "v1",
+                    Title = "Groupe ProjetIT API",
+                    Description = "A simple CRUD (Create, Read, Update, Delete) ASP.NET Core Web API",
+                    TermsOfService = new Uri("https://example.com/terms"),
+                    });
+
+                // Pour activer l'autorisation swagger sur(JWT)
+                c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+                {
+                    In = ParameterLocation.Header,
+                    Description = "Please insert JWT with Bearer into field",
+                    Name = "Authorization",
+                    BearerFormat = "JWT",
+                    Type = SecuritySchemeType.ApiKey
+                });
+
+                c.AddSecurityRequirement(new OpenApiSecurityRequirement
+                {
+                    {
+                          new OpenApiSecurityScheme
+                            {
+                                Reference = new OpenApiReference
+                                {
+                                    Type = ReferenceType.SecurityScheme,
+                                    Id = "Bearer"
+                                }
+                            },
+                            new string[] {}
+
+                    }
+                });
+
+
+                // Set the comments path for the Swagger JSON and UI.
+                var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                    var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+                    c.IncludeXmlComments(xmlPath);
+            }
                 
                 );
 
 
-
-            /*
+            /*Ajouter les services nécessaire pour gérer nos Utilisateurs*/
             services.AddIdentity<User, Role>().AddEntityFrameworkStores<EatDbContext>();
-            services.AddAuthentication("Bearer")
-              .AddJwtBearer("Bearer", options =>
+            /*Configuration des jetons JWT pour protéger nos Apis*/
+            /*Installer Microsoft.AspNetCoreAuthentification*/
+           
+            services.AddAuthentication(options=>{ 
+                options.DefaultAuthenticateScheme = "JwtBearer";
+                options.DefaultChallengeScheme = "JwtBearer";
+            })
+              .AddJwtBearer("JwtBearer", options =>
               {
                   //options.Authority = "https://localhost:5001";
 
@@ -81,13 +110,20 @@ namespace WebApplication
                   //options.Audience = "testapi";
                   options.TokenValidationParameters = new TokenValidationParameters
                   {
-                      ValidateAudience = true,
+                      ValidateAudience = false,
                       ValidateIssuer = false,
-                      IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes("myKey")),
-                      ValidateIssuerSigningKey = true,  
+                      IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes("ICImachainesecreteTreslongue2020")),
+                      ValidateIssuerSigningKey = true,
+                      ValidateLifetime = true,
+                      ClockSkew = TimeSpan.FromMinutes(5)
                   };
 
-              });*/
+              });
+
+
+
+
+
 
 
 
@@ -103,18 +139,25 @@ namespace WebApplication
 
             //app.UseHttpsRedirection();
 
-            //ajout du swagger ? notre application
+            //ajout du swagger à notre application
             var swaggerOptions = new SwaggerOptions();
 
             Configuration.GetSection(nameof(swaggerOptions)).Bind(swaggerOptions);
-            /*app.UseSwagger(options => options.RouteTemplate = swaggerOptions.JsonRoute);
-            app.UseSwaggerUI(options => options.SwaggerEndpoint(swaggerOptions.UIEndpoint, swaggerOptions.Description));*/
+            app.UseSwagger(options => options.RouteTemplate = swaggerOptions.JsonRoute);
+            app.UseSwaggerUI(options => options.SwaggerEndpoint(swaggerOptions.UIEndpoint, swaggerOptions.Description));
 
             app.UseStaticFiles();
+            ///app.UseAuthentication();
             app.UseHttpsRedirection();
             app.UseRouting();
             
-            //app.UseAuthentication();
+            //global cors policy
+            app.UseCors(x => x
+                .AllowAnyOrigin()
+                .AllowAnyMethod()
+                .AllowAnyHeader());
+
+            app.UseAuthentication();
             app.UseAuthorization();
 
 
@@ -123,7 +166,6 @@ namespace WebApplication
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
-
             });
         }
     }
