@@ -8,7 +8,7 @@ namespace APILibrary.Core.Extensions
 {
     public static class PaginationExtensions
     {
-        public static IQueryable<TModel> Skip<TModel>(this IQueryable<TModel> query, int offset, int limit) where TModel : ModelBase
+        public static IQueryable<TModel> Skips<TModel>(this IQueryable<TModel> query, int offset, int limit) where TModel : ModelBase
         {
             int Star = offset - 1;
             if (Star < 0)

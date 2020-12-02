@@ -34,3 +34,15 @@ D:/Mes Cours Ynov/Nouveau dossier/ArchiLog/src/APILibrary/obj/Debug/netcoreapp3.
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary/obj/Debug/netcoreapp3.1/APILibrary.dll
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary/obj/Debug/netcoreapp3.1/APILibrary.pdb
 /Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary/obj/Debug/netcoreapp3.1/APILibrary.genruntimeconfig.cache
+C:\Users\lodia\OneDrive\Bureau\Projet\Project_IT\ArchiLog\src\APILibrary\obj\Debug\netcoreapp3.1\APILibrary.csprojAssemblyReference.cache
+C:\Users\lodia\OneDrive\Bureau\Projet\Project_IT\ArchiLog\src\APILibrary\obj\Debug\netcoreapp3.1\APILibrary.AssemblyInfoInputs.cache
+C:\Users\lodia\OneDrive\Bureau\Projet\Project_IT\ArchiLog\src\APILibrary\obj\Debug\netcoreapp3.1\APILibrary.AssemblyInfo.cs
+C:\Users\lodia\OneDrive\Bureau\Projet\Project_IT\ArchiLog\src\APILibrary\obj\Debug\netcoreapp3.1\APILibrary.csproj.CoreCompileInputs.cache
+C:\Users\lodia\OneDrive\Bureau\Projet\Project_IT\ArchiLog\src\APILibrary\obj\Debug\netcoreapp3.1\APILibrary.dll
+C:\Users\lodia\OneDrive\Bureau\Projet\Project_IT\ArchiLog\src\APILibrary\obj\Debug\netcoreapp3.1\APILibrary.pdb
+C:\Users\lodia\OneDrive\Bureau\Projet\Project_IT\ArchiLog\src\APILibrary\bin\Debug\netcoreapp3.1\APILibrary.deps.json
+C:\Users\lodia\OneDrive\Bureau\Projet\Project_IT\ArchiLog\src\APILibrary\bin\Debug\netcoreapp3.1\APILibrary.runtimeconfig.json
+C:\Users\lodia\OneDrive\Bureau\Projet\Project_IT\ArchiLog\src\APILibrary\bin\Debug\netcoreapp3.1\APILibrary.runtimeconfig.dev.json
+C:\Users\lodia\OneDrive\Bureau\Projet\Project_IT\ArchiLog\src\APILibrary\bin\Debug\netcoreapp3.1\APILibrary.dll
+C:\Users\lodia\OneDrive\Bureau\Projet\Project_IT\ArchiLog\src\APILibrary\bin\Debug\netcoreapp3.1\APILibrary.pdb
+C:\Users\lodia\OneDrive\Bureau\Projet\Project_IT\ArchiLog\src\APILibrary\obj\Debug\netcoreapp3.1\APILibrary.genruntimeconfig.cache

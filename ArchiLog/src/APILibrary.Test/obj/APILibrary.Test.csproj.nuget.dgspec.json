@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary.Test/APILibrary.Test.csproj": {}
+    "C:\\Users\\lodia\\OneDrive\\Bureau\\Projet\\Project_IT\\ArchiLog\\src\\APILibrary.Test\\APILibrary.Test.csproj": {}
   },
   "projects": {
-    "/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary.Test/APILibrary.Test.csproj": {
+    "C:\\Users\\lodia\\OneDrive\\Bureau\\Projet\\Project_IT\\ArchiLog\\src\\APILibrary.Test\\APILibrary.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary.Test/APILibrary.Test.csproj",
+        "projectUniqueName": "C:\\Users\\lodia\\OneDrive\\Bureau\\Projet\\Project_IT\\ArchiLog\\src\\APILibrary.Test\\APILibrary.Test.csproj",
         "projectName": "APILibrary.Test",
-        "projectPath": "/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary.Test/APILibrary.Test.csproj",
-        "packagesPath": "/Users/ismailadiallo/.nuget/packages/",
-        "outputPath": "/Users/ismailadiallo/Desktop/YNOV/ArchitectureLogicielle/ProjetIT/Project_IT/ArchiLog/src/APILibrary.Test/obj/",
+        "projectPath": "C:\\Users\\lodia\\OneDrive\\Bureau\\Projet\\Project_IT\\ArchiLog\\src\\APILibrary.Test\\APILibrary.Test.csproj",
+        "packagesPath": "C:\\Users\\lodia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lodia\\OneDrive\\Bureau\\Projet\\Project_IT\\ArchiLog\\src\\APILibrary.Test\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/Users/ismailadiallo/.config/NuGet/NuGet.Config"
+          "C:\\Users\\lodia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -56,6 +62,10 @@
               "target": "Package",
               "version": "[3.15.1, )"
             },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
             "nunit": {
               "target": "Package",
               "version": "[3.12.0, )"
@@ -72,11 +82,14 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

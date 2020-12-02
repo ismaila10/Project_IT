@@ -49,7 +49,7 @@ namespace APILibrary.Core.Controllers
                 var tab = range.Trim().Split("-");
                 var offset = Int32.Parse(tab[0]);
                 var limit = Int32.Parse(tab[1]);
-                query = query.Skip(offset, limit);
+                query = query.Skips(offset, limit);
             }
             
             
