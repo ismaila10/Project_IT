@@ -31,7 +31,7 @@ namespace APILibrary.Core.Controllers
 
         [HttpGet]
         [ProducesResponseType((int)HttpStatusCode.OK)]
-        [Authorize]
+        //[Authorize]
         
         public virtual async Task<ActionResult<IEnumerable<dynamic>>> GetAllAsync([FromQuery] string range,[FromQuery] string sort, [FromQuery] string FilterBy)
         {           
