@@ -1,8 +1,15 @@
 ﻿<Properties StartupConfiguration="{8A61986B-8AE5-4F02-B714-B2D9AEA5ACC6}|Default">
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workbench ActiveDocument="src/APILibrary.Test/obj/Debug/netcoreapp3.1/APILibrary.Test.AssemblyInfo.cs">
     <Files>
       <File FileName="src/APILibrary/Core/Extensions/WhereExtension.cs" Line="3" Column="14" />
       <File FileName="src/APILibrary/Core/Controllers/ControllerBaseAPI.cs" />
+=======
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/APILibrary.Test/Mock/Models/PizzaMock.cs">
+    <Files>
+      <File FileName="src/APILibrary/Core/Extensions/WhereExtension.cs" Line="3" Column="14" />
+      <File FileName="src/APILibrary/Core/Controllers/ControllerBaseAPI.cs" Line="1" Column="1" />
+>>>>>>> 75a96e6e1989e719ee99b6e69c25e2913fc7e233
       <File FileName="src/APILibrary/Core/Extensions/IQueryableExtensions.cs" />
       <File FileName="src/WebApplication/appsettings.json" />
       <File FileName="src/APILibrary/Core/Extensions/OrderbyExtension.cs" />
@@ -26,17 +33,34 @@
       <File FileName="src/APILibrary/Options/SwaggerOptions.cs" />
       <File FileName="src/APILibrary.Test/UnitTest1.cs" />
       <File FileName="src/WebApplication/WebApplication.xml" />
+<<<<<<< HEAD
       <File FileName="src/APILibrary.Test/obj/Debug/netcoreapp3.1/APILibrary.Test.AssemblyInfo.cs" Line="14" Column="44" />
+=======
+      <File FileName="src/APILibrary.Test/Mock/MockDbContext.cs" Line="10" Column="10" />
+      <File FileName="src/APILibrary.Test/Mock/Models/PizzaMock.cs" Line="10" Column="2" />
+      <File FileName="src/APILibrary.Test/Mock/Models/CustomerMock.cs" Line="1" Column="1" />
+>>>>>>> 75a96e6e1989e719ee99b6e69c25e2913fc7e233
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ArchiLog" expanded="True">
             <Node name="src" expanded="True">
+<<<<<<< HEAD
               <Node name="APILibrary" expanded="True">
                 <Node name="Dependencies" selected="True" />
                 <Node name="Core" expanded="True" />
+=======
+              <Node name="APILibrary" expanded="True" />
+              <Node name="APILibrary.Test" expanded="True">
+                <Node name="Mock" expanded="True">
+                  <Node name="Models" expanded="True">
+                    <Node name="PizzaMock.cs" selected="True" />
+                  </Node>
+                </Node>
+>>>>>>> 75a96e6e1989e719ee99b6e69c25e2913fc7e233
               </Node>
+              <Node name="WebApplication" expanded="True" />
             </Node>
           </Node>
         </State>
