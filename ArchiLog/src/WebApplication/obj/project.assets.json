@@ -7101,7 +7101,7 @@
       "outputPath": "/Users/ismailadiallo/Desktop/YNOV/NewProjectExam/Project_IT/ArchiLog/src/WebApplication/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/ismailadiallo/.config/NuGet/NuGet.Config"
+        "/Users/ismailadiallo/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"

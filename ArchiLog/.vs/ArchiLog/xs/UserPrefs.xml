@@ -1,27 +1,20 @@
 ﻿<Properties StartupConfiguration="{8A61986B-8AE5-4F02-B714-B2D9AEA5ACC6}|Default">
-<<<<<<< HEAD
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/APILibrary.Test/obj/Debug/netcoreapp3.1/APILibrary.Test.AssemblyInfo.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/WebApplication/Migrations/20201201121844_AuthentificationUser.cs">
     <Files>
       <File FileName="src/APILibrary/Core/Extensions/WhereExtension.cs" Line="3" Column="14" />
-      <File FileName="src/APILibrary/Core/Controllers/ControllerBaseAPI.cs" />
-=======
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/APILibrary.Test/Mock/Models/PizzaMock.cs">
-    <Files>
-      <File FileName="src/APILibrary/Core/Extensions/WhereExtension.cs" Line="3" Column="14" />
-      <File FileName="src/APILibrary/Core/Controllers/ControllerBaseAPI.cs" Line="1" Column="1" />
->>>>>>> 75a96e6e1989e719ee99b6e69c25e2913fc7e233
+      <File FileName="src/APILibrary/Core/Controllers/ControllerBaseAPI.cs" Line="73" Column="40" />
       <File FileName="src/APILibrary/Core/Extensions/IQueryableExtensions.cs" />
-      <File FileName="src/WebApplication/appsettings.json" />
+      <File FileName="src/WebApplication/appsettings.json" Line="21" Column="1" />
       <File FileName="src/APILibrary/Core/Extensions/OrderbyExtension.cs" />
       <File FileName="src/WebApplication/Controllers/AuthentificateController.cs" />
       <File FileName="src/WebApplication/Controllers/CustomersController.cs" />
       <File FileName="src/WebApplication/obj/WebApplication.csproj.nuget.g.props" />
       <File FileName="../../../../../../../usr/local/share/dotnet/sdk/5.0.100/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets" />
-      <File FileName="src/WebApplication/Properties/launchSettings.json" />
+      <File FileName="src/WebApplication/Properties/launchSettings.json" Line="31" Column="75" />
       <File FileName="src/WebApplication/appsettings.Development.json" />
-      <File FileName="src/WebApplication/Dockerfile" />
-      <File FileName="src/WebApplication/Program.cs" />
-      <File FileName="src/WebApplication/Startup.cs" />
+      <File FileName="src/WebApplication/Dockerfile" Line="1" Column="1" />
+      <File FileName="src/WebApplication/Program.cs" Line="1" Column="1" />
+      <File FileName="src/WebApplication/Startup.cs" Line="107" Column="21" />
       <File FileName="src/WebApplication/WebApplication.csproj" />
       <File FileName="src/APILibrary/Core/Extensions/SkipExtensions.cs" />
       <File FileName="src/APILibrary/Core/Attributes/NotJsonAttribute.cs" />
@@ -31,36 +24,41 @@
       <File FileName="src/APILibrary/Core/Models/UserModel.cs" />
       <File FileName="src/APILibrary/Core/Pagination/PageResponse.cs" />
       <File FileName="src/APILibrary/Options/SwaggerOptions.cs" />
-      <File FileName="src/APILibrary.Test/UnitTest1.cs" />
+      <File FileName="src/APILibrary.Test/UnitTest1.cs" Line="14" Column="1" />
       <File FileName="src/WebApplication/WebApplication.xml" />
-<<<<<<< HEAD
-      <File FileName="src/APILibrary.Test/obj/Debug/netcoreapp3.1/APILibrary.Test.AssemblyInfo.cs" Line="14" Column="44" />
-=======
-      <File FileName="src/APILibrary.Test/Mock/MockDbContext.cs" Line="10" Column="10" />
-      <File FileName="src/APILibrary.Test/Mock/Models/PizzaMock.cs" Line="10" Column="2" />
-      <File FileName="src/APILibrary.Test/Mock/Models/CustomerMock.cs" Line="1" Column="1" />
->>>>>>> 75a96e6e1989e719ee99b6e69c25e2913fc7e233
+      <File FileName="src/APILibrary.Test/Mock/MockDbContext.cs" Line="28" Column="1" />
+      <File FileName="src/APILibrary.Test/Mock/Models/PizzaMock.cs" Line="8" Column="9" />
+      <File FileName="src/APILibrary.Test/Mock/Models/CustomerMock.cs" Line="11" Column="1" />
+      <File FileName="src/WebApplication/Migrations/20201201121844_AuthentificationUser.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ArchiLog" expanded="True">
             <Node name="src" expanded="True">
-<<<<<<< HEAD
-              <Node name="APILibrary" expanded="True">
-                <Node name="Dependencies" selected="True" />
-                <Node name="Core" expanded="True" />
-=======
               <Node name="APILibrary" expanded="True" />
               <Node name="APILibrary.Test" expanded="True">
-                <Node name="Mock" expanded="True">
-                  <Node name="Models" expanded="True">
-                    <Node name="PizzaMock.cs" selected="True" />
-                  </Node>
-                </Node>
->>>>>>> 75a96e6e1989e719ee99b6e69c25e2913fc7e233
+                <Node name="Dependencies" expanded="True" />
               </Node>
-              <Node name="WebApplication" expanded="True" />
+              <Node name="WebApplication" expanded="True">
+                <Node name="Dependencies" expanded="True" />
+                <Node name="Migrations" expanded="True">
+                  <Node name="20201201121844_AuthentificationUser.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="ArchiLog" expanded="True" selected="True">
+            <Node name="src" expanded="True">
+              <Node name="APILibrary.Test" expanded="True">
+                <Node name="APILibrary.Test" expanded="True">
+                  <Node name="Tests" expanded="True" />
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>
