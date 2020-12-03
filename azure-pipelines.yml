@@ -36,7 +36,7 @@ steps:
   displayName: 'publish artifacts'
 
 - task: DotNetCoreCLI@2
-inputs:
-command: test
-projects: '**/*Test/*.csproj'
-arguments: '--configuration $(buildConfiguration)'
+  inputs:
+    command: test
+    projects: '**/*Test/*.csproj'
+    arguments: '--configuration $(buildConfiguration)'
