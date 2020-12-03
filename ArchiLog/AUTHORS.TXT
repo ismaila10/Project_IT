@@ -1,26 +1,31 @@
-Projet Architecture logiciel
-Nom du groupe: Projet_IT
-Membres du groupe et responsabilités:
-
- DIALLO Ismaila
- 
-	- CI/CD
-	- Hébergement
-	- Recherche
-	- Tests unitaires
+	Projet Architecture logiciel
 	
- TEGUIA Polla Joël
+Nom du groupe: Projet_IT
+
+Membres du groupe : 
+
+	- TEGUIA Polla joël
+	- Ismaila Diallo
+	- Babacar Thiam
+	
+Fonctionnalités :
+
+	- Gestion du dépot distant (Merge, Nommenclature, Conflits ...) - Ismaila Diallo
+ 	- Présentation PowerPoint (Babacar Thiam)
+	- Pagination (TEGUIA Polla joël)
+	- CI/CD (Ismaila Diallo)
+	- Tris (TEGUIA Polla joël)
+ 	- Recherche (Ismaila Diallo)
+	- Filtres ((TEGUIA Polla joël)
+	- Tests unitaires (Ismaila Diallo et Babacar Thiam)
+	- Authentification (TEGUIA Polla joël)
+	- Hébergement (Ismaila Diallo)
+	- Web API (TEGUIA Polla joël)
+	- Hébergement (Ismaila Diallo)
  
-	- Pagination
-	- Tris
-	- Filtres
-	- Authentification
-	- Web API
- 
- THIAM Babacar
 
  
- Données Pour le teste des Fonctions
+ Données Pour le test des Fonctions
  
  Lancer le projet sur un navigateur à l'adresse: http://localhost:5000/swagger/index.html
  
@@ -32,6 +37,9 @@ range = offset limit
  email=DESC&Lastname=DESC
  >Fonction de Filtres FilterBy
  Paramètres sous la forme
+ > Fonction de Recherche 
+ paramètres sous la forme
+ search=FirstName=redon
  
  
  
@@ -47,6 +55,13 @@ range = offset limit
 - https://docs.microsoft.com/fr-fr/aspnet/core/tutorials/getting-started-with-swashbuckle?view=aspnetcore-5.0&tabs=visual-studio
 > Filtres
 --https://www.codemag.com/article/1607041/Simplest-Thing-Possible-Dynamic-Lambda-Expressions
+> Test
+- https://www.codingame.com/playgrounds/35462/creating-web-api-in-asp-net-core-2-0/part-3---integration-tests
+- https://blog.techfabric.com/3-ways-to-run-automated-tests-on-azure-devops/
+> Déploiement - CI CD 
+- https://docs.microsoft.com/fr-fr/azure/devops/pipelines/ecosystems/dotnet-core?view=azure-devops
+- https://wakeupandcode.com/yaml-defined-ci-cd-for-asp-net-core-3-1/
+
  
  
 
